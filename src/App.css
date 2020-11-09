@@ -33,10 +33,11 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  padding-top: 12em;
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 3vw;
   font-weight: bold;
   color: white;
 }
