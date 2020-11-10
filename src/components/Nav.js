@@ -9,7 +9,7 @@ export default class Nav extends Component{
         return(
             <div className="demo-big-content">
                 <Layout>
-                    <Header className="header-colour" title="Title" scroll>
+                    <Header className="header-colour" title="My Portfolio" scroll>
                         <Navigation>
                             <Link to="/aboutme">About Me</Link>
                             <Link to="/resume">Resume</Link>
