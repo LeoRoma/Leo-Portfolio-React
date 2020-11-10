@@ -11,6 +11,7 @@ export default class Nav extends Component{
                 <Layout>
                     <Header className="header-colour" title="My Portfolio" scroll>
                         <Navigation>
+                            <Link to="/">Home</Link>
                             <Link to="/aboutme">About Me</Link>
                             <Link to="/resume">Resume</Link>
                             <Link to="/projects">Projects</Link>
@@ -19,6 +20,7 @@ export default class Nav extends Component{
                     </Header>
                     <Drawer title="Title">
                         <Navigation>
+                            <Link to="/">Home</Link>
                             <Link to="/aboutme">About Me</Link> 
                             <Link to="/resume">Resume</Link>
                             <Link to="/projects">Projects</Link>
