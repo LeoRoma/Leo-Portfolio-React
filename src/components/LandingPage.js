@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Grid, Cell} from 'react-mdl';
-import Image from 'react-bootstrap/Image';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 class LandingPage extends Component {
