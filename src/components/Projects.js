@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl';
+import {Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl';
 import {Container, Row, Col} from 'react-bootstrap';
 import Dwitter from '../images/dwitter.jpg';
 import SpartaGlobal from '../images/spartaglobalprofile.jpg';
@@ -111,7 +111,8 @@ class Projects extends Component {
                     <Col sm={4}>
                         {/* MakerBNB */}
                         <Card className="mdl-card--responsive" shadow={5} style={{width: "100%", margin: "auto"}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background:`url(${MakersBnB}) center/cover`}}>React Project</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '176px', background:`url(${MakersBnB}) center/cover`}} />
+                            <CardTitle>Crouching Python B'n'B</CardTitle>
                             <CardText>
                                 First group project in Makers Academy, inspired by Air bnb. We incorporated features which allowed users to sign up, list a property, book other users' properties and manage their bookings. Tech-stack used for this project are Ruby, PostgreSQL and Sinatra for the backend. HTML and CSS for the frontend. Capybara and RSpec for the test.
                             </CardText>
