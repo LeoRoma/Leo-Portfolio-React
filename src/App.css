@@ -71,9 +71,30 @@
 }
 
 .projects-container{
-  margin-top: 25px;
+  margin-top: 45px;
 }
+
+/* .project-card{
+  border-color: #2C5364;
+  border-style: solid;
+} */
 
 .second-row-projects{
   margin-top:25px;
+}
+
+.about-grid{
+  width: 50%;
+  margin: auto;
+  padding-top: 6em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profilepic{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  
 }
