@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Grid, Cell} from 'react-mdl';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import LandingPic from '../images/landingpic.jpg'
 
 class LandingPage extends Component {
   render(){
@@ -19,7 +20,7 @@ class LandingPage extends Component {
                           <h1>I am Jia Tian Xia</h1>
                           <hr />
                           <p>
-                            In my previous experience within Makers Academy and Sparta Global, I have learnt different coding languages such as C#, Ruby and Javascript where I have built full-stack applications using OOP and TDD, Agile, and version control. As an aspiring Junior Developer, I would like to challenge myself and my end-to-end critical thinking in a fast-paced environment.
+                            I am a full stack engineer driven by curiosity and a passion to learn. This passion led me to join a Bootcamp, where I built full stack applications using OOP and TDD, Agile and version control. I enjoy problem solving and I consider it a good way to stimulate and express my creativity. As an aspiring Junior Developer, I would like to challenge myself and my end-to-end critical thinking in a fast-paced environment.
                           </p>
                           <div className="social-links">
                               {/*Linkedin*/}
