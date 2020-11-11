@@ -103,3 +103,14 @@
   max-height: 100%;
   overflow: hidden;
 }
+.resume{
+  padding-top: 5em;
+}
+
+.education-section{
+  padding: 10px;
+}
+
+.resume-experience{
+  padding: 10px
+}
