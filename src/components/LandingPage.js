@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Grid, Cell} from 'react-mdl';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
-import LandingPic from '../images/landingpic.jpg'
+
 
 class LandingPage extends Component {
   render(){
