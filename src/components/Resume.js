@@ -92,6 +92,20 @@ class Resume extends Component {
                             </Col>                           
                         </Col>
                     </Row>
+                    <Row>
+                        <Col md={3}><h1>Achievements</h1></Col>
+                        <Col md={9}>
+                        <div className="resume-experience">
+                                <p>
+                                    Winner of Global Sushi Challenge UK 2015 representing Kouzu Restaurant, after that I went to Tokyo, Japan to represent the UK in the Grand Final (see link). 
+                                </p>
+                                <br />
+                                <p>
+                                    In 2010 I won a scholarship from Sapienza Università di Roma to study abroad at the Beijing Foreign Studies University for three months to improve Chinese language skills.
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         )
