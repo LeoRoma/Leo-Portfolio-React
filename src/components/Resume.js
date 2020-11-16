@@ -13,9 +13,18 @@ class Resume extends Component {
                                 <Row>
                                         <div className="resume-experience">
                                             <h1>Sparta Global</h1>
+                                            <h4>London</h4>
+                                            <h4>C# Developer Trainee</h4>
+                                            <h4>June 2020 - September 2020</h4>
                                             <br />
                                             <p>
-                                                Something about Sparta
+                                                ●	A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
+                                                <br />
+                                                ●	Being taught C# programming language and ensuring a strong understanding of OOP programming, SOLID principles, through to building robust testable C# code with TDD and NUnit.
+                                                <br />
+                                                ●	Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
+                                                <br />
+                                                ●	Built a CV viewing tool for internal use using ASP .NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint reviews.
                                             </p>
                                         </div>   
                                 </Row>
