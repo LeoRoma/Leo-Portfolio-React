@@ -6,9 +6,9 @@ class AboutMe extends Component {
     render(){
         return(
             <section id="about">
-                   <div className="aboutme" style={{width:'100%', margin:'auto'}}>
-                    <Container className="about-grid">
-                        <Row md={12}>
+                   <div className="aboutme about-grid" style={{width:'100%', margin:'auto'}}>
+                    <Container>
+                        <Row>
                             <Col sm={4} md={6} className="aboutme-row">
                                 {/* <div style={{height:'425px', width:'100%', margin:'auto', textAlign: 'right'}}> */}
                                     <img src={ProfilePic} className="profilepic" alt="avatar" />
