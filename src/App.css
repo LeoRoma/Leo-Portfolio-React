@@ -1,24 +1,13 @@
-.header-colour{
+.position-fixed{
+
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+
 }
 
 
-.landing-image{
-  /* background-image: url('../src/images/landing.jpg');
-  text-align: center; */
-  /* position: relative;
-  top: 0;
-  left: 0; */
-  /* width: 100%;
-  min-height: 100%; */
-  /* Center and scale the image nicely */
-  /* background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
+
 
 .landing-grid{
   background-image: url('../src/images/landing.jpg');
@@ -94,7 +83,7 @@
 }
 
 .projects-container{
-  margin-top: 45px;
+  padding-top: 5em;
 }
 
 /* .project-card{
