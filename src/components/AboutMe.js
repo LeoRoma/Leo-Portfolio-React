@@ -9,13 +9,13 @@ class AboutMe extends Component {
                    <div style={{width:'100%', margin:'auto'}}>
                     <Container className="about-grid">
                         <Row>
-                            <Col md={4} className="aboutme-row">
+                            <Col lg={4} className="aboutme-row">
                                 {/* <div style={{height:'425px', width:'100%', margin:'auto', textAlign: 'right'}}> */}
                                     <img src={ProfilePic} className="profilepic" alt="avatar" />
                                 {/* </div> */}
                             
                             </Col>
-                            <Col md={8} className="aboutme-row">
+                            <Col lg={8} className="aboutme-row">
                                 <Row>
                                     <h1>About Me</h1>
                                     <hr />
