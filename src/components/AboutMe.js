@@ -8,7 +8,7 @@ class AboutMe extends Component {
             <section id="about">
                    <div className="aboutme about-grid" style={{width:'100%', margin:'auto'}}>
                     <Container>
-                        <Row style={{height: '400px'}}>
+                        <Row>
                             <Col sm={4} className="aboutme-row">
                                 {/* <div style={{height:'425px', width:'100%', margin:'auto', textAlign: 'right'}}> */}
                                     <img src={ProfilePic} className="profilepic" alt="avatar" />
