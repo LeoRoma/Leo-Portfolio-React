@@ -6,7 +6,7 @@ class AboutMe extends Component {
     render(){
         return(
             <section id="about">
-                   <div style={{width:'100%', margin:'auto'}}>
+                   <div className="aboutme" style={{width:'100%', margin:'auto'}}>
                     <Container className="about-grid">
                         <Row>
                             <Col lg={4} className="aboutme-row">
