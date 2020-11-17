@@ -23,7 +23,7 @@
 .landing-grid{
   background-image: url('../src/images/landing.jpg');
   text-align: center;
-  
+
   top: 0;
   left: 0;
   width: 100%;
@@ -35,13 +35,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* 
+
 .landing-image{
   width: 100%;
   height: auto;
-} */
+}
 
-.avatar-img{
+/* .avatar-img{
   width: 100%;
   height: auto;
   padding-top: 5em;
@@ -49,7 +49,7 @@
   border-top-right-radius: 50% 60%;
   border-bottom-right-radius: 50% 40%;
   border-bottom-left-radius: 50% 40%;
-}
+} */
 
 .banner-text{
   /* background-color: black; */
