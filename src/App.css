@@ -12,8 +12,8 @@
 }
 
 .drawer-fixed{
-  position: fixed;
-  z-index: 9;
+  position: absolut;
+  z-index: 2;
 }
 .landing-grid{
   background-image: url('../src/images/landing.jpg');
@@ -60,6 +60,7 @@
   display: block;
   overflow: hidden;
   position: relative;
+  z-index: 2;
 }
 
 .banner-text h1{
@@ -81,11 +82,17 @@
   line-height: 1.6;
 }
 
-.social-links {
+.social-links{
   display: flex;
   justify-content: center;
   width: 30%;
   margin: auto;
+  z-index: 999;
+}
+
+.social-links a{
+ 
+  z-index: 999;
 }
 
 .projects-container{
