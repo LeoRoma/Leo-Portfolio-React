@@ -6,16 +6,9 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa';
 class LandingPage extends Component {
   render(){
       return(
-          <div style={{width:'100%', margin:'auto'}}>
+          <div className="landing-image">
               <Grid className="landing-grid">
                   <Cell col={12}>
-                      {/* <Image
-                          
-                          src="../images/makersprofilepic.jpg" 
-                          rounded
-                          alt="avatar"
-                          className="avatar-img" 
-                      /> */}
                       <div className="banner-text">
                           <h1>I am Jia Tian Xia</h1>
                           <hr />

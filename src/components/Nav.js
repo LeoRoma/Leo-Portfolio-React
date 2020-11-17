@@ -11,11 +11,16 @@ export default class Nav extends Component{
                 <Layout>
                     <Header className="header-colour" title="My Portfolio" scroll>
                         <Navigation>
-                            <Link to="/">Home</Link>
+                            {/* <Link to="/">Home</Link>
                             <Link to="/aboutme">About Me</Link>
                             <Link to="/resume">Resume</Link>
                             <Link to="/projects">Projects</Link>
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/contact">Contact</Link> */}
+                            <a className="smoothscroll" href="#home">Home</a>
+                            <a className="smoothscroll" href="#about">About Me</a>
+                            <a className="smoothscroll" href="#resume">Resume</a>
+                            <a className="smoothscroll" href="#projects">Projects</a>
+                            <a className="smoothscroll" href="#contact">Contact</a>
                         </Navigation>
                     </Header>
                     <Drawer title="My Portfolio">
