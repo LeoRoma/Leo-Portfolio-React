@@ -4,6 +4,7 @@
 
 import React from "react";
 import {Grid} from 'react-mdl';
+import formSpree from '../formSpree';
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -23,7 +24,7 @@ export default class MyForm extends React.Component {
            <div className="contact">
             <form
                 onSubmit={this.submitForm}
-                action="https://formspree.io/f/xdopdyaa"
+                action={formSpree.form}
                 method="POST"
                 className="contact-input"
               >
