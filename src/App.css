@@ -147,6 +147,10 @@
   padding: 10px
 }
 
+.project-col{
+  padding: 10px;
+}
+
 .contact{
   z-index: 999;
 }
