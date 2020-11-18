@@ -115,10 +115,8 @@
 }
 
 .about-grid{
-  /* width: 50%;
-  margin: auto; */
-  padding-top: 60px;
-  padding: 60px;
+
+  padding: 70px;
 
 }
 
@@ -151,10 +149,29 @@
   padding: 10px;
 }
 
+.contact-grid{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align: center;
+}
+
 .contact{
+  padding: 70px;
   z-index: 999;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align: center;
 }
 
 .contact-input{
   z-index:999;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align: center;
 }

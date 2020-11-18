@@ -20,23 +20,27 @@ export default class MyForm extends React.Component {
     return (
       <section id="contact">
          <div style={{width:'100%', margin:'auto'}}>
-           <Grid>
-           <div className="contact">
-            <form
-                onSubmit={this.submitForm}
-                action={formSpree.form}
-                method="POST"
-                className="contact-input"
-              >
-                {/* <!-- add your custom form HTML here --> */}
-                <label>Email:</label>
-                <input className="contact-input" type="email" name="email" />
-                <label>Message:</label>
-                <input className="contact-input" type="text" name="message" />
-                {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-input">Submit</button>}
-                {status === "ERROR" && <p>Ooops! There was an error.</p>}
-            </form>
-          </div>
+           <Grid className="contact-grid">
+            <div className="contact">
+              <form
+                  onSubmit={this.submitForm}
+                  action={formSpree.form}
+                  method="POST"
+                  className="contact-input"
+                >
+                  {/* <!-- add your custom form HTML here --> */}
+                  <label>Email:</label>
+                  <br />
+                  <input className="contact-input" type="email" name="email" />
+                  <br />
+                  <label>Message:</label>
+                  <br />
+                  <textarea className="contact-input" type="text" name="message" />
+                  <br />
+                  {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-input">Submit</button>}
+                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              </form>
+            </div>
            </Grid>
          
          </div>
