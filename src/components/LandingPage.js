@@ -27,6 +27,7 @@ class LandingPage extends Component {
                                     <FaGithub size='3em' color='white'/>
                                 </a>   
                             </div>
+                            
                         </div>
                         
                     </Cell>
