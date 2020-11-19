@@ -10,13 +10,19 @@ class NavigationBar extends Component{
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        {/* <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                         </Nav>
                         <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
+                        <Nav.Link href="#about">About Me</Nav.Link>
+                        <Nav.Link eventKey={2} href="#resume">
+                            Resume
+                        </Nav.Link>
+                        <Nav.Link eventKey={3} href="#projects">
+                            Projects
+                        </Nav.Link>
+                        <Nav.Link eventKey={4} href="#contact">
+                            Contact
                         </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

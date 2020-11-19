@@ -10,19 +10,9 @@
   z-index: 3;
 }
 
-.mdl-layout__drawer-button i {
-  color: white;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-.drawer-fixed{
-  position: fixed;
-  z-index: 2;
-}
 .landing-grid{
-  background-image: url('../src/images/landing.jpg');
+  background-image: url('../src/images/landingpic.jpg');
   text-align: center;
 
   top: 0;
