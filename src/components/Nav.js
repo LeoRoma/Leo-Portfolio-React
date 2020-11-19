@@ -14,7 +14,7 @@ class Nav extends Component{
     render(){
         return(
             <div>
-                <Layout className="drawer-fixed position-fixed">
+                <Layout className="drawer-fixed">
                     <Header className="header-colour position-fixed" title="My Portfolio" scroll>
                         <Navigation>
                             {/* <Link to="/">Home</Link>
