@@ -6,16 +6,17 @@ import Contact from './components/Contact';
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
   return (
     <div>
-      <Nav />
-      <LandingPage />
+      <NavigationBar />
+      {/* <LandingPage />
       <AboutMe />
       <Resume />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
