@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import LandingPage from './components/LandingPage';
@@ -12,11 +12,11 @@ function App() {
   return (
     <div>
       <NavigationBar />
-      {/* <LandingPage />
+      <LandingPage />
       <AboutMe />
       <Resume />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 }

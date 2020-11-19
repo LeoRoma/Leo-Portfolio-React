@@ -4,7 +4,7 @@ import {NavDropdown, Nav, Navbar} from 'react-bootstrap';
 class NavigationBar extends Component{
     render(){
         return(
-            <div>
+            <div className="navigation-bar">
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

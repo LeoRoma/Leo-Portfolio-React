@@ -4,6 +4,12 @@
   background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.navigation-bar{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
 .mdl-layout__drawer-button i {
   color: white;
   background: #000000;  /* fallback for old browsers */
@@ -60,7 +66,7 @@
   display: block;
   overflow: hidden;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
 
 .banner-text h1{
@@ -87,13 +93,9 @@
   justify-content: center;
   width: 30%;
   margin: auto;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
-.social-links a{
- 
-  z-index: 999;
-}
 
 .projects-container{
   padding-top: 5em;
@@ -169,7 +171,7 @@
 }
 
 .contact-input{
-  z-index:999;
+  /* z-index:999; */
   margin: auto;
   width: 60%;
   border: 3px solid #73AD21;
