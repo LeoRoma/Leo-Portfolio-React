@@ -86,6 +86,10 @@
   /* z-index: 999; */
 }
 
+.social-links a{
+  padding-left: 32px;
+}
+
 
 .projects-container{
   padding-top: 5em;
@@ -135,6 +139,10 @@
 
 .resume-experience{
   padding: 10px
+}
+
+.resume-experience p{
+  font-size: 16px;
 }
 
 .project-col{
