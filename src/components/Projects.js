@@ -14,7 +14,7 @@ class Projects extends Component {
                 <Container className="projects-container">
                     <Row>
                         <Col sm={4} className="project-col"> {/* Dwitter Project */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: 'black', height: '176px', background:`url(${Dwitter}) center/cover`}} />
                                 <CardTitle>D-Witter</CardTitle>
                                 <CardText>
@@ -34,7 +34,7 @@ class Projects extends Component {
                         </Col>
                         <Col sm={4} className="project-col">
                             {/* Sparta Global Profile */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: 'black', height: '176px', background:`url(${SpartaGlobal}) center/cover`}} />
                                 <CardTitle>Sparta Global Profile</CardTitle>
                                 <CardText>
@@ -52,7 +52,7 @@ class Projects extends Component {
                         </Col>
                         <Col sm={4} className="project-col">
                             {/* LeoBay */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background:`url(${LeoBay}) center/cover`}} />
                                 <CardTitle>LeoBay</CardTitle>
                                 <CardText>
@@ -72,7 +72,7 @@ class Projects extends Component {
                     <Row className="second-row-projects">
                         <Col sm={4} className="project-col">
                             {/* Strawberry Alarm Clock */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background:`url(${StrawberryAlarmClock}) center/cover`}} />
                                 <CardTitle>Strawberry Alarm Clock</CardTitle>
                                 <CardText>
@@ -90,7 +90,7 @@ class Projects extends Component {
                         </Col>
                         <Col sm={4} className="project-col">
                             {/* LeoPortfolioReact */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background:`url(${LeoPortfolioReact}) center/cover`}} />
                                 <CardTitle>Leo Portfolio React</CardTitle>
                                 <CardText>
@@ -111,7 +111,7 @@ class Projects extends Component {
                         </Col>
                         <Col sm={4} className="project-col">
                             {/* MakerBNB */}
-                            <Card className="mdl-card--responsive project-card" shadow={5} style={{width: "100%", margin: "auto"}}>
+                            <Card className="mdl-card--responsive project-card" shadow={1} style={{width: "100%", margin: "auto"}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background:`url(${MakersBnB}) center/cover`}} />
                                 <CardTitle>Crouching Python B'n'B</CardTitle>
                                 <CardText>
