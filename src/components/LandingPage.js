@@ -19,12 +19,12 @@ class LandingPage extends Component {
                             <div className="social-links">
                                 {/*Linkedin*/}
                                 <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
-                                    <FaLinkedin size='3em' color='white' />
+                                    <FaLinkedin />
                                 </a>    
                                 
                                 {/*Github*/}
                                 <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank">
-                                    <FaGithub size='3em' color='white'/>
+                                    <FaGithub />
                                 </a>   
                             </div>
                         </div>                   

@@ -3,10 +3,12 @@ import './App.css';
 // import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import NavigationBar from './components/NavigationBar';
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import NavigationBar from './components/NavigationBar';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Resume />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

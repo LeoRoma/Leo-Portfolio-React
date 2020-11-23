@@ -88,8 +88,13 @@
 
 .social-links a{
   padding-left: 32px;
+  font-size: 3em;
+  color: white;
 }
 
+.social-links a:hoover{
+  color:gray;
+}
 
 .projects-container{
   padding-top: 5em;
@@ -143,6 +148,12 @@
 
 .resume-experience p{
   font-size: 16px;
+}
+
+.project-bg{
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .project-col{
@@ -202,3 +213,14 @@
   border: 3px solid #73AD21;
   padding: 10px;
 } */
+
+.footer a{
+  text-align: center;
+  padding-left: 35px;
+  color: white;
+  font-size: 3em;
+}
+
+.footer a:hoover{
+  background-color: gray;
+}
