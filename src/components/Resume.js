@@ -8,7 +8,7 @@ class Resume extends Component {
                 <div className="resume">
                     <Container>
                         <Row>
-                            <Col md={3} className="education-section"><h1>Professional Experience</h1></Col>
+                            <Col md={3} className="education-section"><h1>PROFESSIONAL EXPERIENCE</h1></Col>
                             <Col md={9}>
                                 <Col sm={12}>
                                     <Row>
@@ -51,7 +51,7 @@ class Resume extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3} className="education-section"><h1>Education</h1></Col>
+                            <Col md={3} className="education-section"><h1>EDUCATION</h1></Col>
                             <Col md={9}>
                                 <Col sm={12}>
                                     <Row>
@@ -94,7 +94,7 @@ class Resume extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3}><h1>Achievements</h1></Col>
+                            <Col md={3}><h1>ACHIEVEMENTS</h1></Col>
                             <Col md={9}>
                             <div className="resume-experience">
                                     <p>

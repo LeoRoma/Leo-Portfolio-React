@@ -138,6 +138,10 @@
   padding-top: 5em;
 }
 
+.resume h1{
+  font-weight: bold;
+}
+
 .education-section{
   padding: 10px;
 }
