@@ -127,6 +127,11 @@
 
 .aboutme-row h1{
   color: white;
+  /* font-weight: bold; */
+}
+
+.aboutme-row span{
+  color: #C0C0C0;
 }
 
 .profilepic{
