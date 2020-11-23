@@ -1,7 +1,5 @@
-.header-colour{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.body{
+
 }
 
 .navigation-bar{
@@ -10,6 +8,17 @@
   z-index: 3;
 }
 
+.navbar-header{
+  margin-left: 7%;
+}
+.navbar-items{
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.navbar-item{
+  color: #000000;
+}
 
 .landing-grid{
   background-image: url('../src/images/landingpic.jpg');
@@ -31,16 +40,6 @@
   width: 100%;
   height: auto;
 }
-
-/* .avatar-img{
-  width: 100%;
-  height: auto;
-  padding-top: 5em;
-  border-top-left-radius: 50% 60%;
-  border-top-right-radius: 50% 60%;
-  border-bottom-right-radius: 50% 40%;
-  border-bottom-left-radius: 50% 40%;
-} */
 
 .banner-text{
   /* background-color: black; */
