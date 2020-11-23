@@ -15,7 +15,7 @@ class Resume extends Component {
                                             <div className="resume-experience">
                                                 <h1>Sparta Global</h1>
                                                 <h4>London</h4>
-                                                <h4>C# Developer Trainee</h4>
+                                                <h4><i>C# Developer Trainee</i></h4>
                                                 <h4>June 2020 - September 2020</h4>
                                                 <br />
                                                 <p>
@@ -33,7 +33,7 @@ class Resume extends Component {
                                             <div className="resume-experience">
                                                 <h1>Restaurants: Sushi Hiroba, 4 Degree, Tokimeite, Kouzu</h1>
                                                 <h4>London</h4>
-                                                <h4>Sous Chef</h4>
+                                                <h4><i>Sous Chef</i></h4>
                                                 <h4>September 2013 - December 2019</h4>
                                                 <br />
                                                 <p>
@@ -58,7 +58,7 @@ class Resume extends Component {
                                             <div className="resume-experience">
                                                 <h1>Makers Academy</h1>
                                                 <h4>London</h4>
-                                                <h4>Graduate Degree</h4>
+                                                <h4><i>Graduate Degree</i></h4>
                                                 <h4>May 2019 - September 2019</h4>
                                                 <br />
                                                 <p>
@@ -79,8 +79,9 @@ class Resume extends Component {
                                     <Row>
                                             <div className="resume-experience">
                                                 <h1>Sapienza University Of Rome</h1>
-                                                <h4>Rome</h4>
+                                                <h4><i>Rome</i></h4>
                                                 <h4>Bachelor Degree</h4>
+                                                <h4>September 2007 - December 2010</h4>
                                                 <br />
                                                 <p>
                                                     ●	Faculty of East Asian Languages and Cultures
