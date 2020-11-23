@@ -12,12 +12,22 @@
   margin-left: 7%;
 }
 
-.navbar-item{
-  color: #000000;
+.landingpage{
+  padding-top: 65px;
+  margin-top: 500px;
+  border-color: red;
+  border-style: dashed;
+}
+
+.landingpage-container{
+  padding-top: 65px;
+  width: 100%;
+  border-color: red;
+  border-style: dashed;
 }
 
 .landing-grid{
-  background-image: url('../src/images/landingpic.jpg');
+  /* background-image: url('../src/images/landingpic.jpg'); */
   text-align: center;
 
   top: 0;

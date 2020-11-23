@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import ProfilePic from '../images/makersprofilepic.jpg';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 class AboutMe extends Component {
     render(){
@@ -42,6 +43,17 @@ class AboutMe extends Component {
                             </Col>
                         </Row>
                     </Container>
+                    <div className="social-links">
+                                {/*Linkedin*/}
+                                <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
+                                    <FaLinkedin />
+                                </a>    
+                                
+                                {/*Github*/}
+                                <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank">
+                                    <FaGithub />
+                                </a>   
+                            </div>
                 </div>
             </section>    
         )
