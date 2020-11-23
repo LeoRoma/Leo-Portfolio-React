@@ -1,4 +1,4 @@
-import Rect, {Component} from 'react';
+import React, {Component} from 'react';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 class Footer extends Component{
