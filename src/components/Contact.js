@@ -3,7 +3,8 @@
 // Finally, add a <MyForm/> element whereever you wish to display the form.
 
 import React from "react";
-import {Grid} from 'react-mdl';
+// import {Grid} from 'react-mdl';
+import {Container, Row, Col} from 'react-bootstrap';
 import formSpree from '../formSpree';
 
 export default class MyForm extends React.Component {
@@ -20,31 +21,43 @@ export default class MyForm extends React.Component {
     return (
       <section id="contact">
          <div style={{width:'100%', margin:'auto'}}>
-           <Grid className="contact-grid">
-            <div className="contact">
-              <form
-                  onSubmit={this.submitForm}
-                  action={formSpree.form}
-                  method="POST"
-                  className="contact-input"
-                >
-                  {/* <!-- add your custom form HTML here --> */}
-                  <label>Email:</label>
-                  <br />
-                  <input className="contact-input" type="email" name="email" />
-                  <br />
-                  <label>Message:</label>
-                  <br />
-                  <textarea className="contact-input" type="text" name="message" />
-                  <br />
-                  {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-input">Submit</button>}
-                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
-              </form>
-            </div>
-           </Grid>
-         
-         </div>
+           <Container className="contact">
+             <Row>
+               <Col sm={6}>
+                  <h1>
+                    Get 
+                    <br />
+                    In 
+                    <br />
+                    Touch
+                  </h1>
+               </Col>
+               <Col sm={6}>
+                  <div className="contact-form">
+                    <form
+                        onSubmit={this.submitForm}
+                        action={formSpree.form}
+                        method="POST"
+                        className="contact-input"
+                      >
+                        {/* <!-- add your custom form HTML here --> */}
+                        <label>Email:</label>
+                        <br />
+                        <input className="contact-input" type="email" name="email" />
+                        <br />
+                        <label>Message:</label>
+                        <br />
+                        <textarea className="contact-input" type="text" name="message" />
+                        <br />
+                        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-input">Submit</button>}
+                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                    </form>
+                  </div>
+               </Col>
+             </Row>
            
+           </Container>
+         </div>
       </section>
     );
   }
