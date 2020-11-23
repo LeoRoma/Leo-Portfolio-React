@@ -154,26 +154,51 @@
   font-size: 16px;
 }
 
+.contact-bg{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .contact{
   padding: 70px;
   margin: auto;
   width: 90%;
-  border: 3px solid #73AD21;
+  /* border: 3px solid #73AD21; */
   padding: 10px;
   /* text-align: center; */
 }
 
 .contact h1{
+  padding: 50px;
   text-decoration: underline;
   font-size: 64px;
   font-weight: bold;
   line-height: 1.6;
+  color: white;
 }
 
-.contact-input{
+.contact-form{
+  padding: 70px;
+}
+
+.contact-form label{
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-form input{
+  width: 40%;
+}
+
+.contact-form textarea{
+  width: 40%;
+  height: 100px;
+}
+/* .contact-input{
   margin: auto;
   width: 80%;
   border: 3px solid #73AD21;
   padding: 10px;
-}
+} */

@@ -20,10 +20,10 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <section id="contact">
-         <div style={{width:'100%', margin:'auto'}}>
+         <div className="contact-bg" style={{width:'100%', margin:'auto'}}>
            <Container className="contact">
              <Row>
-               <Col sm={6}>
+               <Col sm={4}>
                   <h1>
                     Get 
                     <br />
@@ -32,7 +32,7 @@ export default class MyForm extends React.Component {
                     Touch
                   </h1>
                </Col>
-               <Col sm={6}>
+               <Col sm={8}>
                   <div className="contact-form">
                     <form
                         onSubmit={this.submitForm}
