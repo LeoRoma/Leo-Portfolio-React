@@ -1,29 +1,29 @@
 import React, {Component} from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
-
+import Hello from '../images/hello.jpg';
 class NavigationBar extends Component{
     render(){
         return(
             <div className="navigation-bar">
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+                <Navbar className="navbar" collapseOnSelect expand="lg">
+                    <Navbar.Brand className="navbar-brand" href="#home" style={{backgroundImage:`url("${Hello}")`, width:"188px", height:"50px"}}></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse className="navbar-items" id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                        {/* <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                         </Nav>
                         <Nav>
-                        <Nav.Link href="#about">About Me</Nav.Link>
-                        <Nav.Link eventKey={2} href="#resume">
-                            Resume
+                        <Nav.Link href="#about" style={{color:"black"}}>
+                            About Me |
                         </Nav.Link>
-                        <Nav.Link eventKey={3} href="#projects">
-                            Projects
+                        <Nav.Link eventKey={2} href="#resume" style={{color:"black"}}>
+                            Resume |
                         </Nav.Link>
-                        {/* <Nav.Link eventKey={4} href="#contact">
+                        <Nav.Link eventKey={3} href="#projects" style={{color:"black"}}>
+                            Projects |
+                        </Nav.Link>
+                        <Nav.Link eventKey={4} href="#contact" style={{color:"black"}}>
                             Contact
-                        </Nav.Link> */}
+                        </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
