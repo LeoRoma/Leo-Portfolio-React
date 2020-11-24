@@ -15,11 +15,11 @@ function App() {
     <div>
       <NavigationBar />
       <LandingPage />
-      <AboutMe />
+      {/* <AboutMe />
       <Resume />
-      <Projects />
+      <Projects /> */}
       {/* <Contact /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
