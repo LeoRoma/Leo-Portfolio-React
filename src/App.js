@@ -15,8 +15,8 @@ function App() {
     <div>
       <NavigationBar />
       <LandingPage />
-      {/* <AboutMe />
-      <Resume />
+      <AboutMe />
+      {/* <Resume />
       <Projects /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

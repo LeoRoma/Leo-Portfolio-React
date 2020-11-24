@@ -7,7 +7,7 @@ class LandingPage extends Component {
   render(){
       return(
           <section id="home">
-            <div className="landingpage" style={{width:'100%', margin:'auto'}}>
+            <div className="landingpage">
                 <div className="banner-text">
                     <h1>
                         Portfolio of Jia Tian Xia,
