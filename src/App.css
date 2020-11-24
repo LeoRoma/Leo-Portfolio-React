@@ -1,3 +1,13 @@
+@font-face{
+  font-family: 'Manrope';
+  src: local('Manrope'), url(./fonts/Manrope-Regular.ttf) format('opentype');
+}
+
+.navbar{
+  height:80px;
+  background-color: transparent;
+}
+
 .navigation-bar{
   position: fixed;
   width: 100%;
@@ -5,25 +15,38 @@
 }
 
 .navbar-header{
-  margin-left: 7%;
+  margin-left: 10%;
 }
+
 .navbar-items{
-  margin-right: 7%;
-  margin-left: 7%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color:#E5E5E5;
 }
 
 .landingpage{
-  padding-top: 65px;
-  margin-top: 500px;
-  border-color: red;
-  border-style: dashed;
+  padding-top: 350px;
 }
 
 .landingpage-container{
-  padding-top: 65px;
-  width: 100%;
-  border-color: red;
-  border-style: dashed;
+  height: 419px;
+}
+
+.landingpage-container h1{
+  font-family: Manrope;
+  font-size: 4.5vw;
+  font-weight: 900;
+}
+
+.description-col{
+  padding-top: 60px;
+
+}
+
+.description-col p{
+  font-size: 17px;
+  font-family: Manrope;
+  margin-left: -15px;
 }
 
 .landing-grid{
@@ -65,7 +88,7 @@
 }
 
 .banner-text h1{
-  font-size: 5vw;
+  font-size: 1vw;
   font-weight: bold;
   color: white;
 }
