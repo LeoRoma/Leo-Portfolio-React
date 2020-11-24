@@ -14,8 +14,8 @@ class Nav extends Component{
     render(){
         return(
             <div>
-                <Layout className="drawer-fixed">
-                    <Header className="header-colour position-fixed" title="My Portfolio" scroll>
+                <Layout>
+                    <Header className="header-colour position-fixed" title="Hello" scroll>
                         <Navigation>
                             {/* <Link to="/">Home</Link>
                             <Link to="/aboutme">About Me</Link>
@@ -33,7 +33,7 @@ class Nav extends Component{
                         <div className="page-content" />
                         <Main />
                     </Content> */}
-                     <Drawer className="drawer-position" title="My Portfolio">
+                     <Drawer className="drawer-position">
                             <Navigation>
                                 <a href="#home" onClick = {() => this.hideToggle()}>Home</a>
                                 <a href="#about" onClick = {() => this.hideToggle()}>About Me</a>

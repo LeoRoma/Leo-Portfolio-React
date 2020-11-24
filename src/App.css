@@ -1,7 +1,11 @@
-.header-colour{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@font-face{
+  font-family: 'Manrope';
+  src: local('Manrope'), url(./fonts/Manrope-Regular.ttf) format('opentype');
+}
+
+.navbar{
+  height:80px;
+  background-color: transparent;
 }
 
 .navigation-bar{
@@ -10,9 +14,43 @@
   z-index: 3;
 }
 
+.navbar-header{
+  margin-left: 10%;
+}
+
+.navbar-items{
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color:#E5E5E5;
+}
+
+.landingpage{
+  padding-top: 350px;
+}
+
+.landingpage-container{
+  height: 419px;
+}
+
+.landingpage-container h1{
+  font-family: Manrope;
+  font-size: 4.5vw;
+  font-weight: 900;
+}
+
+.description-col{
+  padding-top: 60px;
+
+}
+
+.description-col p{
+  font-size: 17px;
+  font-family: Manrope;
+  margin-left: -15px;
+}
 
 .landing-grid{
-  background-image: url('../src/images/landingpic.jpg');
+  /* background-image: url('../src/images/landingpic.jpg'); */
   text-align: center;
 
   top: 0;
@@ -32,16 +70,6 @@
   height: auto;
 }
 
-/* .avatar-img{
-  width: 100%;
-  height: auto;
-  padding-top: 5em;
-  border-top-left-radius: 50% 60%;
-  border-top-right-radius: 50% 60%;
-  border-bottom-right-radius: 50% 40%;
-  border-bottom-left-radius: 50% 40%;
-} */
-
 .banner-text{
   /* background-color: black; */
   opacity: .8;
@@ -60,7 +88,7 @@
 }
 
 .banner-text h1{
-  font-size: 5vw;
+  font-size: 1vw;
   font-weight: bold;
   color: white;
 }
