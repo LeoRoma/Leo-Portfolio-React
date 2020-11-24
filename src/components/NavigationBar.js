@@ -21,9 +21,9 @@ class NavigationBar extends Component{
                         <Nav.Link eventKey={3} href="#projects">
                             Projects
                         </Nav.Link>
-                        <Nav.Link eventKey={4} href="#contact">
+                        {/* <Nav.Link eventKey={4} href="#contact">
                             Contact
-                        </Nav.Link>
+                        </Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
