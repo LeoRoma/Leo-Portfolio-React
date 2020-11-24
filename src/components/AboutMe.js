@@ -35,7 +35,7 @@ class AboutMe extends Component {
                                 </div>
                             </Col>
                             <Col sm={4}>
-                                <img src={ProfilePic} style={{width:"100%", margin:"auto"}}></img>
+                                <img src={ProfilePic} style={{width:"100%", margin:"auto"}} alt="profilepic"></img>
                             </Col>
                         </Row>
                     </Container>

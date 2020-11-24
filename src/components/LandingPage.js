@@ -19,10 +19,7 @@ class LandingPage extends Component {
                     <div className="banner-text-col">
                         <p>
                             I am a full stack engineer driven by curiosity and a passion to learn. This passion led me to join a Bootcamp, where I built full stack applications using OOP and TDD, Agile and version control. I enjoy problem solving and I consider it a good way to stimulate and express my creativity. 
-                        </p>
-                    </div>
-                    <div className="banner-text-col">
-                        <p>
+                            <br />
                             As an aspiring Junior Developer, I would like to challenge myself and my end-to-end critical thinking in a fast-paced environment.
                         </p>
                     </div>
