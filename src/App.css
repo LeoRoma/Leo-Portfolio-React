@@ -26,6 +26,9 @@
   z-index: 3;
 }
 
+.navbar{
+  height:70px
+}
 .landing-grid{
   background-image: url('../src/images/landingpic.jpg');
   text-align: center;
@@ -152,8 +155,9 @@
   overflow: hidden;
 }
 .resume{
-  padding-top: 5em;
+  padding-top: 80px;
 }
+
 
 .resume h1{
   font-weight: bold;

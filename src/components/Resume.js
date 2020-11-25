@@ -6,7 +6,7 @@ class Resume extends Component {
         return(
             <section id="resume">
                 <div className="resume">
-                    <Container>
+                    <Container className="resume-container">
                         <Row>
                             <Col md={3} className="work-section"><h1>PROFESSIONAL EXPERIENCE <hr /></h1></Col>
                             <Col md={9}>
