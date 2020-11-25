@@ -4,7 +4,7 @@
 
 import React from "react";
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
-import Manella from '../images/manella.jpg'
+// import Manella from '../images/manella.jpg'
 import {Container, Row, Col} from 'react-bootstrap';
 // import formSpree from '../formSpree';
 
