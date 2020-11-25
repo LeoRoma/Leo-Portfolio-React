@@ -234,13 +234,14 @@
 }
 
 .contact-img{
-  position: absolute;
+  position: relative;
   float: left;
   right: 0px;
   padding-top: 1%;
 }
 
 .contact-img img{
+  position: s;
   float: right;
   width:40%;
   bottom: 0px;
