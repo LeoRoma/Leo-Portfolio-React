@@ -8,7 +8,7 @@ class Resume extends Component {
                 <div className="resume">
                     <Container>
                         <Row>
-                            <Col md={3} className="education-section"><h1>PROFESSIONAL EXPERIENCE</h1></Col>
+                            <Col md={3} className="work-section"><h1>PROFESSIONAL EXPERIENCE <hr /></h1></Col>
                             <Col md={9}>
                                 <Col sm={12}>
                                     <Row>
@@ -19,13 +19,16 @@ class Resume extends Component {
                                                 <h4>June 2020 - September 2020</h4>
                                                 <br />
                                                 <p>
-                                                    ●	A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
+                                                    A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
                                                     <br />
-                                                    ●	Being taught C# programming language and ensuring a strong understanding of OOP programming, SOLID principles, through to building robust testable C# code with TDD and NUnit.
                                                     <br />
-                                                    ●	Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
+                                                    Being taught C# programming language and ensuring a strong understanding of OOP programming, SOLID principles, through to building robust testable C# code with TDD and NUnit.
                                                     <br />
-                                                    ●	Built a CV viewing tool for internal use using ASP .NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint reviews.
+                                                    <br />
+                                                    Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
+                                                    <br />
+                                                    <br />
+                                                    Built a CV viewing tool for internal use using ASP .NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint reviews.
                                                 </p>
                                             </div>   
                                     </Row>
@@ -37,13 +40,16 @@ class Resume extends Component {
                                                 <h4>September 2013 - December 2019</h4>
                                                 <br />
                                                 <p>
-                                                    ●	Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
+                                                    Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
                                                     <br />
-                                                    ●	Supervised and managed employees. Manages all day-to-day operations. Understand employee positions well enough to perform duties in employees' absence.
                                                     <br />
-                                                    ●	Worked collaboratively within the team and established and maintained open communication to ensure smooth operations.
+                                                    Supervised and managed employees. Manages all day-to-day operations. Understand employee positions well enough to perform duties in employees' absence.
                                                     <br />
-                                                    ●	Delivering  tailor-made experiences through Omakase (traditional Japanese customer-facing service).
+                                                    <br />
+                                                    Worked collaboratively within the team and established and maintained open communication to ensure smooth operations.
+                                                    <br />
+                                                    <br />
+                                                    Delivering  tailor-made experiences through Omakase (traditional Japanese customer-facing service).
                                                 </p>
                                             </div> 
                                     </Row>
@@ -51,7 +57,7 @@ class Resume extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3} className="education-section"><h1>EDUCATION</h1></Col>
+                            <Col md={3} className="education-section"><h1>EDUCATION<hr /></h1></Col>
                             <Col md={9}>
                                 <Col sm={12}>
                                     <Row>
@@ -95,7 +101,7 @@ class Resume extends Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={3}><h1>ACHIEVEMENTS</h1></Col>
+                            <Col md={3} className="achievements-section"><h1>ACHIEVEMENTS <hr /></h1></Col>
                             <Col md={9}>
                             <div className="resume-experience">
                                     <p>

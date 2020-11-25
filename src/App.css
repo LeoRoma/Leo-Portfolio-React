@@ -159,6 +159,21 @@
   font-size: 16px;
 }
 
+.work-section hr{
+  width:100%;
+  border-top: 3px solid black;
+}
+
+.education-section hr{
+  width:100%;
+  border-top: 3px solid black;
+}
+
+.achievements-section hr{
+  width:100%;
+  border-top: 3px solid black;
+}
+
 .project-bg{
   background: #E0EAFC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
