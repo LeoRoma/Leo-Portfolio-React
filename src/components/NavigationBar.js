@@ -7,14 +7,14 @@ class NavigationBar extends Component{
     render(){
         return(
             <div className="navigation-bar">
-                <Navbar className="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                         </Nav>
                         <Nav>
-                        <Nav.Link>
+                        <Nav>
                             <Link
                                 href="#home"
                                 to="home"
@@ -27,8 +27,8 @@ class NavigationBar extends Component{
                                 >
                                 Home
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link eventKey={2}>
+                        </Nav>
+                        <Nav eventKey={2}>
                             <Link
                                 href="#about"
                                 to="about"
@@ -41,7 +41,7 @@ class NavigationBar extends Component{
                                 >
                                 About Me
                             </Link>
-                        </Nav.Link>
+                        </Nav>
                         <Nav.Link eventKey={3}>
                             <Link
                                 href="#resume"
