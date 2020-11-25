@@ -24,9 +24,13 @@
   position: fixed;
   width: 100%;
   z-index: 3;
+  background-color: black;
+  height: 80px;
 }
 
-
+.navbar{
+  background-color: black;
+}
 .landing-grid{
   background-image: url('../src/images/landingpic.jpg');
   text-align: center;
@@ -130,7 +134,7 @@
 
 .about-grid{
 
-  padding: 70px;
+  padding: 60px;
 
 }
 

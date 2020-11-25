@@ -7,14 +7,14 @@ class NavigationBar extends Component{
     render(){
         return(
             <div className="navigation-bar">
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar className="navbar" collapseOnSelect expand="lg" variant="dark">
                     <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                         </Nav>
                         <Nav>
-                        <Nav>
+                        <Nav.Link>
                             <Link
                                 href="#home"
                                 to="home"
@@ -23,12 +23,12 @@ class NavigationBar extends Component{
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
-                                duration={500}
+                                duration={1000}
                                 >
                                 Home
                             </Link>
-                        </Nav>
-                        <Nav eventKey={2}>
+                        </Nav.Link>
+                        <Nav.Link eventKey={2}>
                             <Link
                                 href="#about"
                                 to="about"
@@ -41,7 +41,7 @@ class NavigationBar extends Component{
                                 >
                                 About Me
                             </Link>
-                        </Nav>
+                        </Nav.Link>
                         <Nav.Link eventKey={3}>
                             <Link
                                 href="#resume"
@@ -51,7 +51,7 @@ class NavigationBar extends Component{
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
-                                duration={500}
+                                duration={1000}
                                 >
                                 Resume
                             </Link>
@@ -65,7 +65,7 @@ class NavigationBar extends Component{
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
-                                duration={500}
+                                duration={1000}
                                 >
                                 Projects
                             </Link>
@@ -79,7 +79,7 @@ class NavigationBar extends Component{
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
-                                duration={500}
+                                duration={1000}
                                 >
                                 Contact
                             </Link>
