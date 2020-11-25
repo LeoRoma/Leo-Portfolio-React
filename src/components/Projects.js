@@ -26,7 +26,7 @@ class Projects extends Component {
                                         <Button colored>
                                             <a href="https://github.com/LeoRoma/D-witter-react" rel="noopenr noreferrer" target="_blank">GitHub</a> 
                                         </Button>
-                                        {/* <Button colored>Live Demo</Button> */}
+                                        
                                     </CardActions>
                                     <CardMenu style={{color:'#fff'}}>
                                         <IconButton name='share' />

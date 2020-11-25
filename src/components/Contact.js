@@ -3,35 +3,26 @@
 // Finally, add a <MyForm/> element whereever you wish to display the form.
 
 import React from "react";
-// import {Grid} from 'react-mdl';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import Manella from '../images/manella.jpg'
 import {Container, Row, Col} from 'react-bootstrap';
-import formSpree from '../formSpree';
+// import formSpree from '../formSpree';
 
 export default class MyForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.submitForm = this.submitForm.bind(this);
-    this.state = {
-      status: ""
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.submitForm = this.submitForm.bind(this);
+  //   this.state = {
+  //     status: ""
+  //   };
+  // }
 
   render() {
-    const { status } = this.state;
+    // const { status } = this.state;
     return (
       <section id="contact">
          <div className="contact-bg" style={{width:'100%', margin:'auto'}}>
-           <Container className="contact">
-             <Row>
-               <Col sm={4}>
-                  <h1>
-                    Get 
-                    <br />
-                    In 
-                    <br />
-                    Touch
-                  </h1>
-               </Col>
+           {/* <Container className="contact">
                <Col sm={8}>
                   <div className="contact-form">
                     <form
@@ -40,7 +31,6 @@ export default class MyForm extends React.Component {
                         method="POST"
                         className="contact-input"
                       >
-                        {/* <!-- add your custom form HTML here --> */}
                         <label>Email:</label>
                         <br />
                         <input className="contact-input" type="email" name="email" />
@@ -54,9 +44,40 @@ export default class MyForm extends React.Component {
                     </form>
                   </div>
                </Col>
-             </Row>
-           
-           </Container>
+           </Container> */}
+            <Container>
+              <Row>
+                <Col sm={6} className="contact-text">
+                  <h1>Contact</h1>
+                    <br />
+                    <p>
+                      For any projects, enquiries, or if you just want to say hi, drop me an email at <u>xiajtn@gmail.com</u>
+                    </p>
+                    <br></br>
+                    <p>Or check me out on socials:</p>
+                    <div className="social-links-contact">
+                      
+                      {/*Linkedin*/}
+                      <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
+                          <FaLinkedin />
+                      </a>    
+                      
+                      {/*Github*/}
+                      <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank" style={{paddingLeft:"32px"}}>
+                          <FaGithub />
+                      </a>   
+                    </div>
+                </Col>
+                <Col sm={6} className="contact-img">
+                  <img src={Manella}></img>
+                </Col>
+              </Row>
+            </Container>
+                  
+                  {/* <div className="contact-img"> */}
+                  
+                  {/* </div> */}
+  
          </div>
       </section>
     );

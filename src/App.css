@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1200px) {
+  .resume h1{
+    font-size: 30px;
+  }
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .resume h1{
+    font-size: 25px;
+  }
+  .project-card{
+    width:500px;
+  }
+}
+
 .header-colour{
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -9,7 +25,6 @@
   width: 100%;
   z-index: 3;
 }
-
 
 .landing-grid{
   background-image: url('../src/images/landingpic.jpg');
@@ -101,8 +116,7 @@
 }
 
 /* .project-card{
-  border-color: #2C5364;
-  border-style: solid;
+  width:1000px;
 } */
 
 .second-row-projects{
@@ -110,9 +124,7 @@
 }
  
 .aboutme{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:	#191818
 }
 
 .about-grid{
@@ -190,27 +202,48 @@
 }
 
 .contact-bg{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: black; 
 }
 
 .contact{
   padding: 70px;
   margin: auto;
   width: 90%;
-  /* border: 3px solid #73AD21; */
   padding: 10px;
-  /* text-align: center; */
 }
 
-.contact h1{
-  padding: 50px;
+.contact-container{
+  /* width: 60%; */
+  margin: auto;
+}
+
+.contact-text{
+  padding: 2%;
+}
+
+.contact-text h1{
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 35px;
   font-weight: bold;
-  line-height: 1.6;
-  color: white;
+  /* line-height: 1.6; */
+  color: orange;
+}
+
+.contact-text p{
+  color: orange;
+}
+
+.contact-img{
+  position: absolute;
+  float: left;
+  right: 0px;
+  padding-top: 1%;
+}
+
+.contact-img img{
+  float: right;
+  width:40%;
+  bottom: 0px;
 }
 
 .contact-form{
@@ -237,6 +270,24 @@
   border: 3px solid #73AD21;
   padding: 10px;
 } */
+
+.social-links-contact{
+  display: flex;
+  /* justify-content: center; */
+  /* width: 30%; */
+  /* margin: auto; */
+  /* z-index: 999; */
+}
+
+.social-links-contact a{
+  float: left;
+  font-size: 2em;
+  color: white;
+}
+
+.social-links-contact a:hoover{
+  color:gray;
+}
 
 .footer a{
   text-align: center;
