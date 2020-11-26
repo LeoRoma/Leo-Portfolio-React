@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  transition-duration: 2000ms;
+}
+
 @media only screen and (max-width: 1200px) {
   .resume h1{
     font-size: 30px;
@@ -24,8 +29,8 @@
   position: fixed;
   width: 100%;
   z-index: 3;
-  background-color: black;
-  height: 80px;
+  /* background-color: black;
+  height: 80px; */
 }
 
 .navbar{
