@@ -3,22 +3,6 @@ html {
   transition-duration: 2000ms;
 }
 
-@media only screen and (max-width: 1200px) {
-  .resume h1{
-    font-size: 30px;
-  }
-  
-}
-
-@media only screen and (max-width: 991px) {
-  .resume h1{
-    font-size: 25px;
-  }
-  .project-card{
-    width:500px;
-  }
-}
-
 .header-colour{
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -246,15 +230,15 @@ html {
 
 .contact-img{
   position: relative;
-  float: left;
+  /* float: left; */
   right: 0px;
   padding-top: 1%;
 }
 
 .contact-img img{
-  position: s;
-  float: right;
-  width:40%;
+  position: absolute;
+  right:0;
+  width:30%;
   bottom: 0px;
 }
 
@@ -310,4 +294,31 @@ html {
 
 .footer a:hoover{
   background-color: gray;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .resume h1{
+    font-size: 30px;
+  }
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .resume h1{
+    font-size: 25px;
+  }
+  .project-card{
+    width:500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-text{
+    width:100px;
+  }
+
+  .contact-img{
+    width:100px;
+  }
 }

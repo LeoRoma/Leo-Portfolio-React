@@ -4,7 +4,7 @@
 
 import React from "react";
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
-// import Manella from '../images/manella.jpg'
+import Manella from '../images/manella.jpg'
 import {Container, Row, Col} from 'react-bootstrap';
 // import formSpree from '../formSpree';
 
@@ -69,15 +69,10 @@ export default class MyForm extends React.Component {
                     </div>
                 </Col>
                 <Col sm={6} className="contact-img">
-                  {/* <img src={Manella} alt="manella"></img> */}
+                  <img src={Manella} alt="manella"></img>
                 </Col>
               </Row>
             </Container>
-                  
-                  {/* <div className="contact-img"> */}
-                  
-                  {/* </div> */}
-  
          </div>
       </section>
     );
