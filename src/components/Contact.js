@@ -47,7 +47,7 @@ export default class MyForm extends React.Component {
            </Container> */}
             <Container>
               <Row>
-                <Col sm={6} className="contact-text">
+                <Col lg={6} className="contact-text">
                   <h1>Contact</h1>
                     <br />
                     <p>
@@ -68,7 +68,7 @@ export default class MyForm extends React.Component {
                       </a>   
                     </div>
                 </Col>
-                <Col sm={6} className="contact-img">
+                <Col lg={6} className="contact-img">
                   <img src={Manella} alt="manella"></img>
                 </Col>
               </Row>

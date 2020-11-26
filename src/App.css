@@ -313,7 +313,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .contact-text{
     width:100px;
   }
@@ -321,4 +321,4 @@ html {
   .contact-img{
     width:100px;
   }
-}
+} */
