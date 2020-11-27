@@ -231,14 +231,14 @@ html {
 .contact-img{
   position: relative;
   /* float: left; */
-  right: 0px;
-  padding-top: 1%;
+  /* right: 0px; */
+  /* padding-top: 1%; */
 }
 
 .contact-img img{
   position: absolute;
   right:0;
-  width:30%;
+  width:45%;
   bottom: 0px;
 }
 
@@ -286,7 +286,7 @@ html {
 }
 
 .footer a{
-  text-align: center;
+  text-align: right;
   padding-left: 35px;
   color: white;
   font-size: 3em;
@@ -308,8 +308,9 @@ html {
   .resume h1{
     font-size: 25px;
   }
-  .project-card{
-    width:500px;
+ 
+  .contact-img img{
+    width:20%;
   }
 }
 
