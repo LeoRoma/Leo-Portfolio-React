@@ -69,7 +69,7 @@ html {
 }
 
 .banner-text h1{
-  font-size: 5vw;
+  font-size: 80px;
   font-weight: bold;
   color: white;
 }
@@ -82,7 +82,7 @@ html {
 
 .banner-text p{
   color: white;
-  font-size: 1.4vw;
+  font-size: 25px;
   padding: 1em;
   line-height: 1.6;
 }
@@ -312,8 +312,51 @@ html {
   .contact-img img{
     width:20%;
   }
+
+  .banner-text h1{
+    font-size: 60px;
+  }
+
+  .banner-text p{
+    font-size: 15px;
+  }
 }
 
+
+@media only screen and (max-width: 800px) {
+  .banner-text h1{
+    font-size: 50px;
+  }
+
+  .banner-text p{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .banner-text h1{
+    font-size: 30px;
+  }
+
+  .banner-text p{
+    font-size: 12px;
+  }
+
+  .social-links a{
+    font-size: 1.5em;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .banner-text h1{
+    font-size: 15px;
+  }
+
+  .banner-text p{
+    font-size: 10px;
+  }
+}
 /* @media only screen and (max-width: 600px) {
   .contact-text{
     width:100px;
