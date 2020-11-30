@@ -156,11 +156,24 @@
   padding: 8%;
 }
 
-.restaurant{
-  color: white;
+.resume-experience h1{
+  font-family: Manrope;
 }
 
-.makers{
+.resume-experience h5{
+  font-family: Manrope;
+  font-weight: bold;
+}
+
+.resume-experience h4{
+  font-family: Manrope;
+}
+
+.resume-experience p{
+  font-family: Manrope;
+}
+
+.resume-color-white{
   color: white;
 }
 

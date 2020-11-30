@@ -11,7 +11,7 @@ class Resume extends Component {
                         <Row>
                             <Col lg={6} className="resume-col">
                                 <div className="resume-experience" style={{backgroundColor:"#FFC94D"}}>
-                                    <h1>PROFESSIONAL EXPERIENCE</h1>
+                                    <h5>WORK EXPERIENCE</h5>
                                     <h1>Sparta Global</h1>
                                     <h4>London</h4>
                                     <h4><i>C# Developer Trainee</i></h4>
@@ -29,7 +29,8 @@ class Resume extends Component {
                                 </div>                               
                             </Col>
                             <Col lg={6} className="resume-col">
-                                <div className="resume-experience restaurant" style={{backgroundColor:'#282C35'}}>
+                                <div className="resume-experience resume-color-white" style={{backgroundColor:'#282C35'}}>
+                                    <h5>WORK EXPERIENCE</h5>
                                     <h1>Restaurants: Sushi Hiroba, 4 Degree, Tokimeite, Kouzu</h1>
                                     <h4>London</h4>
                                     <h4><i>Sous Chef</i></h4>
@@ -49,8 +50,8 @@ class Resume extends Component {
                         </Row>
                         <Row className="resume-row">
                             <Col lg={6} className="resume-col">
-                                <div className="resume-experience makers" style={{backgroundColor:"#6C58E8"}}>
-                                    <h1>EDUCATION</h1>
+                                <div className="resume-experience resume-color-white" style={{backgroundColor:"#6C58E8"}}>
+                                    <h5>EDUCATION</h5>
                                     <h1>Makers Academy</h1>
                                     <h4>London</h4>
                                     <h4><i>Graduate Degree</i></h4>
@@ -74,7 +75,7 @@ class Resume extends Component {
 
                             <Col lg={6} className="resume-col">
                                 <div className="resume-experience" style={{backgroundColor:'#FFFFFF'}}>
-                                    <h1>EDUCATION</h1>
+                                    <h5>EDUCATION</h5>
                                     <h1>Sapienza University Of Rome</h1>
                                     <h4><i>Rome</i></h4>
                                     <h4>Bachelor Degree</h4>
