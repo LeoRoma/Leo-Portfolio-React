@@ -8,8 +8,8 @@ class Resume extends Component {
                 <div className="resume">
                     <Container className="resume-container">
                         <Row>
-                            <Col md={3} className="work-section"><h1>PROFESSIONAL EXPERIENCE <hr /></h1></Col>
-                            <Col md={9}>
+                            <Col sm={3} className="work-section"><h1>PROFESSIONAL EXPERIENCE <hr /></h1></Col>
+                            <Col sm={9}>
                                 <Col sm={12}>
                                     <Row>
                                             <div className="resume-experience">
