@@ -103,7 +103,7 @@ class Resume extends Component {
                         <Row>
                             <Col md={3} className="achievements-section"><h1>ACHIEVEMENTS <hr /></h1></Col>
                             <Col md={9}>
-                            <div className="resume-experience">
+                                <div className="resume-experience">
                                     <p>
                                         Winner of Global Sushi Challenge UK 2015 representing Kouzu Restaurant, after that I went to Tokyo, Japan to represent the UK in the Grand Final (<a href ="http://sushichallenge.global/uk-sushi-chef-xia-tia-jian-set-for-global-sushi-stardom/" rel="noopenr noreferrer" target="_blank">see link</a>). 
                                     </p>
