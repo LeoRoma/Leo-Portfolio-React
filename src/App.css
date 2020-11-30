@@ -88,7 +88,6 @@
 }
 
 .aboutme-text{
-
   padding: 8%;
 }
 
@@ -211,15 +210,24 @@
   font-size: 16px;
 }
 
-.project-bg{
-  background: #E0EAFC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.project{
+  width: 100%;
+  margin: auto;
 }
 
-.project-col{
-  padding: 10px;
-  z-index:2;
+.project-container{
+  margin: auto;
+  width: 80%;
+  border-color:tomato;
+  border-style: double;
+}
+
+.project-card{
+  border-radius: 25px;
+  width:100%;
+  height: 100%;
+  padding: 8%;
+  border-radius: 25px;
 }
 
 .project-card a:hover{

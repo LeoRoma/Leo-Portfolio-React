@@ -11,7 +11,45 @@ class Projects extends Component {
     render(){
         return(
             <section id="projects">
-                <div className="project-bg">
+                <div className="project">
+                    <div className="project-container">
+                        <Row>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#67A4FF'}}>
+                                    <h1>D-Witter</h1>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#FFC94D'}}>
+                                    <h1>Sparta Global Profile</h1>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#FFFFFF'}}>
+                                    <h1>LeoBay</h1>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#6C58E8'}}>
+                                    <h1>Strawberry Alarm Clock</h1>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#90CE62'}}>
+                                    <h1>Crouching Pythin B'n'B</h1>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="project-card" style={{backgroundColor:'#D1CCC5'}}>
+                                    <h1>Leo Portfolio</h1>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                     <Container className="projects-container">
                     <h1 style={{textAlign:"center",fontWeight:"bold", paddingBottom:"40px"}}>MY PROJECTS</h1>
                         <Row>
