@@ -6,48 +6,40 @@ class Resume extends Component {
         return(
             <section id="resume">
                 <div className="resume">
-                    <Container>
+                    <div className="resume-container">
                         <Row>
-                            <Col md={3} className="education-section"><h1>PROFESSIONAL EXPERIENCE</h1></Col>
-                            <Col md={9}>
-                                <Col sm={12}>
-                                    <Row>
-                                            <div className="resume-experience">
-                                                <h1>Sparta Global</h1>
-                                                <h4>London</h4>
-                                                <h4><i>C# Developer Trainee</i></h4>
-                                                <h4>June 2020 - September 2020</h4>
+                            <Col md={6} className="resume-experience" style={{backgroundColor:"#FFC94D"}}>
+                                <h1>PROFESSIONAL EXPERIENCE</h1>
+                                <h1>Sparta Global</h1>
+                                <h4>London</h4>
+                                <h4><i>C# Developer Trainee</i></h4>
+                                <h4>June 2020 - September 2020</h4>
+                                <br />
+                                <p>
+                                    ●	A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
+                                    <br />
+                                    ●	Being taught C# programming language and ensuring a strong understanding of OOP programming, SOLID principles, through to building robust testable C# code with TDD and NUnit.
+                                    <br />
+                                    ●	Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
+                                    <br />
+                                    ●	Built a CV viewing tool for internal use using ASP .NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint reviews.
+                                </p>
+                            </Col>
+                            <Col md={6} className="resume-experience" style={{backgroundColor:'#282C35'}}>
+                            <h1>Restaurants: Sushi Hiroba, 4 Degree, Tokimeite, Kouzu</h1>
+                                            <h4>London</h4>
+                                            <h4><i>Sous Chef</i></h4>
+                                            <h4>September 2013 - December 2019</h4>
+                                            <br />
+                                            <p>
+                                                ●	Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
                                                 <br />
-                                                <p>
-                                                    ●	A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
-                                                    <br />
-                                                    ●	Being taught C# programming language and ensuring a strong understanding of OOP programming, SOLID principles, through to building robust testable C# code with TDD and NUnit.
-                                                    <br />
-                                                    ●	Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
-                                                    <br />
-                                                    ●	Built a CV viewing tool for internal use using ASP .NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint reviews.
-                                                </p>
-                                            </div>   
-                                    </Row>
-                                    <Row>
-                                            <div className="resume-experience">
-                                                <h1>Restaurants: Sushi Hiroba, 4 Degree, Tokimeite, Kouzu</h1>
-                                                <h4>London</h4>
-                                                <h4><i>Sous Chef</i></h4>
-                                                <h4>September 2013 - December 2019</h4>
+                                                ●	Supervised and managed employees. Manages all day-to-day operations. Understand employee positions well enough to perform duties in employees' absence.
                                                 <br />
-                                                <p>
-                                                    ●	Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
-                                                    <br />
-                                                    ●	Supervised and managed employees. Manages all day-to-day operations. Understand employee positions well enough to perform duties in employees' absence.
-                                                    <br />
-                                                    ●	Worked collaboratively within the team and established and maintained open communication to ensure smooth operations.
-                                                    <br />
-                                                    ●	Delivering  tailor-made experiences through Omakase (traditional Japanese customer-facing service).
-                                                </p>
-                                            </div> 
-                                    </Row>
-                                </Col>                           
+                                                ●	Worked collaboratively within the team and established and maintained open communication to ensure smooth operations.
+                                                <br />
+                                                ●	Delivering  tailor-made experiences through Omakase (traditional Japanese customer-facing service).
+                                            </p>                     
                             </Col>
                         </Row>
                         <Row>
@@ -55,26 +47,26 @@ class Resume extends Component {
                             <Col md={9}>
                                 <Col sm={12}>
                                     <Row>
-                                            <div className="resume-experience">
-                                                <h1>Makers Academy</h1>
-                                                <h4>London</h4>
-                                                <h4><i>Graduate Degree</i></h4>
-                                                <h4>May 2019 - September 2019</h4>
+                                        <div className="resume-experience">
+                                            <h1>Makers Academy</h1>
+                                            <h4>London</h4>
+                                            <h4><i>Graduate Degree</i></h4>
+                                            <h4>May 2019 - September 2019</h4>
+                                            <br />
+                                            <p>
+                                                ●	Test-Driven Development (TDD), Object-Oriented Design (OOD)
                                                 <br />
-                                                <p>
-                                                    ●	Test-Driven Development (TDD), Object-Oriented Design (OOD)
-                                                    <br />
-                                                    ●	Agile, XP, Pair Programming
-                                                    <br />
-                                                    ●	Full-stack development
-                                                    <br />
-                                                    ●	Frontend: HTML, CSS, Javascript, JQuery, Angular, React
-                                                    <br />
-                                                    ●	Backend: Ruby, Rails, Sinatra
-                                                    <br />
-                                                    ●	Testing frameworks: RSpec, Jasmine, Capybara
-                                                </p>
-                                            </div>   
+                                                ●	Agile, XP, Pair Programming
+                                                <br />
+                                                ●	Full-stack development
+                                                <br />
+                                                ●	Frontend: HTML, CSS, Javascript, JQuery, Angular, React
+                                                <br />
+                                                ●	Backend: Ruby, Rails, Sinatra
+                                                <br />
+                                                ●	Testing frameworks: RSpec, Jasmine, Capybara
+                                            </p>
+                                        </div>   
                                     </Row>
                                     <Row>
                                             <div className="resume-experience">
@@ -108,7 +100,7 @@ class Resume extends Component {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </div>
                 </div>
             </section>     
         )

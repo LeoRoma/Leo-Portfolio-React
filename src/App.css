@@ -167,16 +167,24 @@
   padding-top: 5em;
 }
 
+.resume-container{
+  width: 78.5%;
+  margin: auto;
+  border-color: black;
+  border-style: groove;
+}
+
+.resume-experience{
+  border-radius: 25px;
+  width:45%;
+}
+
 .resume h1{
   font-weight: bold;
 }
 
 .education-section{
   padding: 10px;
-}
-
-.resume-experience{
-  padding: 10px
 }
 
 .resume-experience p{
@@ -322,7 +330,7 @@
   .landingpage {
     /* width: 80%; */
     padding: 0;
-    height:950px;
+    height:900px;
   }
 
   .banner-text-col {
@@ -349,7 +357,7 @@
   .landingpage {
     /* width: 80%; */
     padding: 0;
-    height:1100px;
+    height:900px;
   }
 }
 
@@ -357,7 +365,7 @@
   .landingpage {
     /* width: 80%; */
     padding: 0;
-    height:790px;
+    height:650px;
   }
 
   .banner-text h1{
@@ -387,7 +395,7 @@
     height:940px;
   }
 }
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:325px) {
   .landingpage{
     height: 1100px;
   }

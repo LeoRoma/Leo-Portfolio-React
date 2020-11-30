@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import ProfilePic from '../images/profilepic.jpg';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
