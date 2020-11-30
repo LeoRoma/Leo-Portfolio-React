@@ -107,17 +107,17 @@
 .aboutme-profilepic{
   position: absolute;
   /* left: 30%; */
-  /* right: 0px; */
-  float: left;
+  right: 0px;
+  /* float: left; */
   width: 50%;
   border-color: orchid;
   border-style: solid;
 }
 
 .aboutme-profilepic img{
-  /* position: absolute; */
-  right:0px;
-  z-index: 100;
+  position: absolute;
+  /* right:0px; */
+  /* z-index: 100; */
   max-height: 100% 100vh;
   width: 65%;
   background-size: cover;
@@ -278,7 +278,7 @@
 @media only screen and (max-width:800px) {
 
   .landingpage {
-    width: 80%;
+    /* width: 80%; */
     padding: 0;
     height:950px;
   }
@@ -304,7 +304,7 @@
 @media only screen and (max-width:700px) {
   /* For tablets: */
   .landingpage {
-    width: 80%;
+    /* width: 80%; */
     padding: 0;
     height:1100px;
   }
@@ -312,7 +312,7 @@
 
 @media only screen and (max-width:600px) {
   .landingpage {
-    width: 80%;
+    /* width: 80%; */
     padding: 0;
     height:790px;
   }
