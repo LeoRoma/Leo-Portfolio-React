@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
+import Achievements from '../images/achievements.png';
 
 class Resume extends Component {
     render(){
@@ -46,7 +47,7 @@ class Resume extends Component {
                                 </div>               
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className="resume-row">
                             <Col md={6}>
                                 <div className="resume-experience" style={{backgroundColor:"#6C58E8"}}>
                                     <h1>EDUCATION</h1>
@@ -88,10 +89,24 @@ class Resume extends Component {
                                 </div>               
                             </Col>
                         </Row>
-                        <Row>
-                            <div className="resume-experience">
-                                
-                            </div>
+                        <Row className="achievements-row resume-row" style={{marginLeft:'0%'}}>
+                            {/* <div className="resume-experience achievements" style={{backgroundColor:'#D1CCC5'}}> */}
+                                <Col lg={6}>
+                                    <img src={Achievements} alt="profilepic"></img>
+                                </Col>
+                                <Col lg={6}>
+                                    <div className="resume-experience" >
+                                        <h1>Achievements</h1>
+                                        <p>
+                                            Winner of Global Sushi Challenge UK 2015 representing Kouzu Restaurant, after that I went to Tokyo, Japan to represent the UK in the Grand Final (<a href ="http://sushichallenge.global/uk-sushi-chef-xia-tia-jian-set-for-global-sushi-stardom/" rel="noopenr noreferrer" target="_blank">see link</a>). 
+                                        </p>
+                                        <br />
+                                        <p>
+                                            In 2010 I won a scholarship from Sapienza Università di Roma to study abroad at the Beijing Foreign Studies University for three months to improve Chinese language skills.
+                                        </p>
+                                    </div>
+                                </Col>    
+                            {/* </div>                        */}
                         </Row>
                     </div>
                 </div>
