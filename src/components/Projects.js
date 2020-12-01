@@ -7,6 +7,7 @@ import LeoBay from '../images/leobay.jpg';
 import StrawberryAlarmClock from '../images/strawberry.jpg';
 import LeoPortfolioReact from '../images/leoportfolioreact.jpg';
 import MakersBnB from '../images/makersbnb.jpg';
+
 class Projects extends Component {
     render(){
         return(
@@ -14,37 +15,37 @@ class Projects extends Component {
                 <div className="project">
                     <div className="project-container">
                         <Row>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#67A4FF'}}>
+                            <Col className="card-col">
+                                <div className="card-o" style={{backgroundColor:'#67A4FF'}}>
                                     <h1>D-Witter</h1>
                                 </div>
                             </Col>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#FFC94D'}}>
+                            <Col className="card-col">
+                                <div className="card-o" style={{backgroundColor:'#FFC94D'}}>
                                     <h1>Sparta Global Profile</h1>
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#FFFFFF'}}>
+                            <Col className="card-col">
+                                <div className="card-o" style={{backgroundColor:'#FFFFFF'}}>
                                     <h1>LeoBay</h1>
                                 </div>
                             </Col>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#6C58E8'}}>
+                            <Col className="card-col text-white">
+                                <div className="card-o" style={{backgroundColor:'#6C58E8'}}>
                                     <h1>Strawberry Alarm Clock</h1>
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#90CE62'}}>
-                                    <h1>Crouching Pythin B'n'B</h1>
+                            <Col className="card-col">
+                                <div className="card-o" style={{backgroundColor:'#90CE62'}}>
+                                    <h1>Crouching Python B'n'B</h1>
                                 </div>
                             </Col>
-                            <Col>
-                                <div className="project-card" style={{backgroundColor:'#D1CCC5'}}>
+                            <Col className="card-col">
+                                <div className="card-o" style={{backgroundColor:'#D1CCC5'}}>
                                     <h1>Leo Portfolio</h1>
                                 </div>
                             </Col>

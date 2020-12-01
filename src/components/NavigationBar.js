@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import Hello from '../images/hello.jpg';
+
 class NavigationBar extends Component{
     render(){
         return(
