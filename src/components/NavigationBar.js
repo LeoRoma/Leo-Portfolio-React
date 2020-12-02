@@ -6,7 +6,7 @@ class NavigationBar extends Component{
     render(){
         return(
             <div className="navigation-bar">
-                <Navbar className="navbar" collapseOnSelect expand="lg">
+                <Navbar className="navbar" collapseOnSelect expand="lg" bg="light" variant="light">
                     <Navbar.Brand className="navbar-brand" href="#home" style={{backgroundImage:`url("${Hello}")`, width:"188px", height:"50px"}}></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="navbar-items" id="responsive-navbar-nav">
