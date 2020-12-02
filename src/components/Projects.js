@@ -4,7 +4,7 @@ import Dwitter from '../images/dwitter.jpg';
 import SpartaGlobal from '../images/spartaglobalprofile.jpg';
 import LeoBay from '../images/leobay.jpg';
 import StrawberryAlarmClock from '../images/strawberry.jpg';
-// import LeoPortfolioReact from '../images/leoportfolioreact.jpg';
+import LeoPortfolioReact from '../images/portfolio.jpg';
 import MakersBnB from '../images/makersbnb.jpg';
 
 class Projects extends Component {
@@ -38,6 +38,9 @@ class Projects extends Component {
                                     <h5>
                                         <a href="https://gist.github.com/LeoRoma/fa6663bd06a05cfcf8515b3033a23a6e" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a> 
                                     </h5>
+                                    <div className="project-img-container">
+                                        <img src={SpartaGlobal} alt="project"></img>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
@@ -51,6 +54,9 @@ class Projects extends Component {
                                     <h5>
                                         <a href="https://github.com/LeoRoma/LeoBay" rel="noopenr noreferrer" target="_blank">CHECK ON GITHUB</a> 
                                     </h5>
+                                    <div className="project-img-container">
+                                        <img src={LeoBay} alt="project"></img>
+                                    </div>
                                 </div>
                             </Col>
                             <Col className="card-col text-white">
@@ -62,6 +68,9 @@ class Projects extends Component {
                                     <h5>
                                         <a href="https://github.com/ckettell/strawberry-alarm-clock" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a>
                                     </h5>
+                                    <div className="project-img-container">
+                                        <img src={StrawberryAlarmClock} alt="project"></img>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
@@ -75,6 +84,9 @@ class Projects extends Component {
                                     <h5>
                                         <a href="https://github.com/LeoRoma/Makersbnb" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a>
                                     </h5>
+                                    <div className="project-img-container">
+                                        <img src={MakersBnB} alt="project" style={{width:'25%'}}></img>
+                                    </div>
                                 </div>
                             </Col>
                             <Col className="card-col">
@@ -86,6 +98,9 @@ class Projects extends Component {
                                     <h5>
                                         <a href="https://github.com/LeoRoma/Leo-Portfolio-React" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a> 
                                     </h5>
+                                    <div className="project-img-container">
+                                        <img src={LeoPortfolioReact} alt="project" style={{width:'100%'}}></img>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
