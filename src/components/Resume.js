@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Col, Row} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 import Achievements from '../images/achievements.png';
 
 class Resume extends Component {
@@ -13,9 +13,8 @@ class Resume extends Component {
                                 <div className="card-o" style={{backgroundColor:"#FFC94D"}}>
                                     <h5>WORK EXPERIENCE</h5>
                                     <h1>Sparta Global</h1>
-                                    <h4>London</h4>
-                                    <h4><i>C# Developer Trainee</i></h4>
-                                    <h4>June 2020 - September 2020</h4>
+                                    <h3>C# Developer Trainee</h3>
+                                    <h4>London, June 2020 - September 2020</h4>      
                                     <br />
                                     <p>
                                         A 12-week intensive training program designed to supply key skills in C# Development and to practice throughout the academy, the mind-set, ceremonies, and continuous integration of Agile.
@@ -35,9 +34,8 @@ class Resume extends Component {
                                 <div className="card-o text-white" style={{backgroundColor:'#282C35'}}>
                                     <h5>WORK EXPERIENCE</h5>
                                     <h1>Restaurants: Sushi Hiroba, 4 Degree, Tokimeite, Kouzu</h1>
-                                    <h4>London</h4>
-                                    <h4><i>Sous Chef</i></h4>
-                                    <h4>September 2013 - December 2019</h4>
+                                    <h3>Sous Chef</h3>
+                                    <h4>London, September 2013 - December 2019</h4>
                                     <br />
                                     <p>
                                         Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
@@ -59,9 +57,8 @@ class Resume extends Component {
                                 <div className="card-o text-white" style={{backgroundColor:"#6C58E8"}}>
                                     <h5>EDUCATION</h5>
                                     <h1>Makers Academy</h1>
-                                    <h4>London</h4>
-                                    <h4><i>Graduate Degree</i></h4>
-                                    <h4>May 2019 - September 2019</h4>
+                                    <h3>Graduate Degree</h3>
+                                    <h4>London, May 2019 - September 2019</h4>
                                     <br />
                                     <p>
                                         Test-Driven Development (TDD), Object-Oriented Design (OOD)
@@ -88,9 +85,8 @@ class Resume extends Component {
                                 <div className="card-o" style={{backgroundColor:'#FFFFFF'}}>
                                     <h5>EDUCATION</h5>
                                     <h1>Sapienza University Of Rome</h1>
-                                    <h4><i>Rome</i></h4>
-                                    <h4>Bachelor Degree</h4>
-                                    <h4>September 2007 - December 2010</h4>
+                                    <h3>Bachelor Degree</h3>
+                                    <h4>Rome, September 2007 - December 2010</h4>
                                     <br />
                                     <p>
                                         Faculty of East Asian Languages and Cultures

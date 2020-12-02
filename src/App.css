@@ -165,30 +165,38 @@ body, html {
   padding: 8%;
 }
 
-.resume-experience h1{
-  /* font-family: Manrope; */
-}
-
-.resume-experience h5{
-  /* font-family: Manrope; */
+.card-o h1{
+  font-family: Manrope;
   font-weight: bold;
 }
 
-.resume-experience h4{
-  /* font-family: Manrope; */
+.card-o h3{
+  margin-top: 16px;
+  font-family: Manrope;
+  font-weight: bold;
 }
 
-.resume-experience p{
-  /* font-family: Manrope; */
+.card-o h4{
+  font-family: Manrope;
+}
+
+.card-o a{
+  color: black;
+}
+.card-o p{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Manrope;
+  font-weight: 600;
 }
 
 .text-white{
   color: white;
 }
 
-/* .resume-row{
-  margin-top: 2%;
-} */
+.text-white a{
+  color: white;
+}
 
 .card-col{
   margin-top: 2%;
@@ -208,17 +216,7 @@ body, html {
   top: 0px;
 }
 
-.resume h1{
-  font-weight: bold;
-}
 
-.education-section{
-  padding: 10px;
-}
-
-.card-o p{
-  font-size: 16px;
-}
 
 .project{
   width: 100%;
@@ -236,54 +234,6 @@ body, html {
   font-size: 16px;
 }
 
-.contact-bg{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.contact{
-  padding: 70px;
-  margin: auto;
-  width: 90%;
-  /* border: 3px solid #73AD21; */
-  padding: 10px;
-  /* text-align: center; */
-}
-
-.contact h1{
-  padding: 50px;
-  text-decoration: underline;
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 1.6;
-  color: white;
-}
-
-.contact-form{
-  padding: 70px;
-}
-
-.contact-form label{
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-}
-
-.contact-form input{
-  width: 40%;
-}
-
-.contact-form textarea{
-  width: 40%;
-  height: 100px;
-}
-/* .contact-input{
-  margin: auto;
-  width: 80%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-} */
 
 .footer a{
   text-align: center;
