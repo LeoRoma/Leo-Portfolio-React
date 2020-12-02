@@ -2,82 +2,48 @@
 // Then import it with 'import MyForm from "./myform.js"'.
 // Finally, add a <MyForm/> element whereever you wish to display the form.
 
-import React from "react";
-// import {Grid} from 'react-mdl';
-import {Container, Row, Col} from 'react-bootstrap';
-import formSpree from '../formSpree';
+import React, {Component} from "react";
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import {Row, Col} from 'react-bootstrap';
+import Manella from '../images/manella.jpg';
 
-export default class MyForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.submitForm = this.submitForm.bind(this);
-    this.state = {
-      status: ""
-    };
-  }
-
+class Contact extends Component{
   render() {
-    const { status } = this.state;
+
     return (
       <section id="contact">
-         <div className="contact-bg" style={{width:'100%', margin:'auto'}}>
-           <Container className="contact">
-             <Row>
-               <Col sm={4}>
-                  <h1>
-                    Get 
-                    <br />
-                    In 
-                    <br />
-                    Touch
-                  </h1>
-               </Col>
-               <Col sm={8}>
-                  <div className="contact-form">
-                    <form
-                        onSubmit={this.submitForm}
-                        action={formSpree.form}
-                        method="POST"
-                        className="contact-input"
-                      >
-                        {/* <!-- add your custom form HTML here --> */}
-                        <label>Email:</label>
-                        <br />
-                        <input className="contact-input" type="email" name="email" />
-                        <br />
-                        <label>Message:</label>
-                        <br />
-                        <textarea className="contact-input" type="text" name="message" />
-                        <br />
-                        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-input">Submit</button>}
-                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-                    </form>
+         <div className="contact" style={{width:'80%', margin:'auto'}}>
+            <Row className="card-row" style={{marginLeft:'0%'}}>
+              <Col lg={6}>
+                
+                <div className="card-o" >
+                  <h1>Contact</h1>
+                  <p>
+                    For any projects, enquiries, or if you just want to say hi, drop me an email at: xiajtn@gmail.com
+                  </p>  
+                  <p>
+                    Or check me out on socials:
+                  </p>
+                  <div className="social-links-contact">
+                        <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
+                            <FaLinkedin />
+                        </a>    
+                        <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank" style={{paddingLeft:"30px"}}>
+                            <FaGithub />
+                        </a>   
                   </div>
-               </Col>
-             </Row>
-           
-           </Container>
+                </div>
+              </Col>
+              <Col lg={6} className="contact-img">
+                <img src={Manella} alt="contact"></img>
+              </Col>  
+            </Row>
          </div>
       </section>
     );
   }
-
-  submitForm(ev) {
-    ev.preventDefault();
-    const form = ev.target;
-    const data = new FormData(form);
-    const xhr = new XMLHttpRequest();
-    xhr.open(form.method, form.action);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        form.reset();
-        this.setState({ status: "SUCCESS" });
-      } else {
-        this.setState({ status: "ERROR" });
-      }
-    };
-    xhr.send(data);
-  }
 }
+
+export default Contact;
+
+

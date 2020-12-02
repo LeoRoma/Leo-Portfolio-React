@@ -98,7 +98,7 @@ class Resume extends Component {
                                 </div>               
                             </Col>
                         </Row>
-                        <Row className="achievements-row resume-row" style={{marginLeft:'0%'}}>
+                        <Row className="card-row" style={{marginLeft:'0%'}}>
                             {/* <div className="resume-experience achievements" style={{backgroundColor:'#D1CCC5'}}> */}
                                 <Col lg={6}>
                                     <img src={Achievements} alt="profilepic"></img>
