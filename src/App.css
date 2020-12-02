@@ -187,7 +187,7 @@ body, html {
   font-size: 16px;
   line-height: 24px;
   font-family: Manrope;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 .text-white{
@@ -216,8 +216,6 @@ body, html {
   top: 0px;
 }
 
-
-
 .project{
   width: 100%;
   margin: auto;
@@ -228,6 +226,13 @@ body, html {
   width: 80%;
   border-color:tomato;
   border-style: double;
+}
+
+.makersbnb {
+  width:70%;
+}
+.project-img-container{
+  text-align: right;
 }
 
 .project-card a:hover{
