@@ -2,6 +2,9 @@ body, html {
   font-family: Manrope;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face{
   font-family: 'Manrope';
@@ -13,6 +16,10 @@ body, html {
   height: 80px;
 }
 
+.navbar-header {
+  background-color: #F16E10;
+}
+
 .navbar-brand{
   margin-left: 10%;
 }
@@ -20,20 +27,16 @@ body, html {
 .navbar-items{
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #CFDEF3;
-  /* width: 100%; */
+  background-color:#CFDEF3;
 }
 
 .navigation-bar{
-  /* position: fixed; */
   width: 100%;
-  /* z-index: 3; */
 }
 
 .landingpage{
   width:100%;
   height: 700px;
-  /* position: absolute; */
   margin:auto;
   display: block;
 }
@@ -47,7 +50,6 @@ body, html {
 
 .banner-text-col{
   margin-top: 3%;
-  /* position: absolute; */
   float: left;
   width: 38%;
 }
@@ -55,7 +57,7 @@ body, html {
 .banner-text-col p{
   text-align: justify;
   text-justify: auto;
-  font-family: Manrope;
+  /* font-family: 'Manrope'; */
   font-weight: 500;
   color: #525252;
   font-size: 18px;
@@ -70,7 +72,6 @@ body, html {
 }
 
 .aboutme{
-  /* margin-top: 50px; */
   padding-top: 40px;
   display: block;
 }
@@ -78,10 +79,8 @@ body, html {
 .aboutme-container{
   margin: auto;
   width: 80%;
-  /* padding: 5%; */
   background-color: #D1CCC5;
   border-radius: 25px;
-  /* text-align: center; */
 }
 
 .aboutme-row{
@@ -95,7 +94,6 @@ body, html {
 .aboutme-container h1{
   font-size: 40px;
   font-weight: bold;
-  /* font-family: Manrope; */
 }
 
 .aboutme-container p{
@@ -286,6 +284,16 @@ body, html {
 }
 
 @media only screen and (max-width:991px){
+  .navbar-brand{
+    margin-left: 0%;
+  }
+  
+  .navbar-items{
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #CFDEF3;
+  }
+
   .aboutme-profilepic img{
     position: relative;
     float: none;
@@ -409,5 +417,11 @@ body, html {
 @media only screen and (max-width:325px) {
   .landingpage{
     height: 1100px;
+  }
+}
+
+@media only screen and (max-width:268px) {
+  .landingpage{
+    height: 1200px;
   }
 }
