@@ -242,10 +242,18 @@ body, html {
   color:black;
 }
 
+.contact-img{
+  position: relative;
+  /* float: left; */
+  /* right: 0px; */
+  /* padding-top: 1%; */
+}
+
 .contact-img img{
-  width:30%;
-  text-align: right;
-  bottom:0px;
+  position: absolute;
+  right:0;
+  width:40%;
+  bottom: 0px;
 }
 
 .footer a{
@@ -303,19 +311,19 @@ body, html {
 @media only screen and (max-width:991px){
   .aboutme-profilepic img{
     position: relative;
-    /* text-align: center; */
     float: none;
     width: 55%;
   }
+
   .aboutme-profilepic{
-    /* position: absolute; */
-    /* left: 30%; */
-    /* right: 0px; */
-    /* float: center; */
-    /* width: 80%; */
     text-align: center;
-    border-color:blue;
-    border-style: solid;
+  }
+
+  .contact-img img{
+    position: absolute;
+    right:0;
+    width:25%;
+    bottom: 0px;
   }
 }
 
