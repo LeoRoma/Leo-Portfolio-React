@@ -9,10 +9,10 @@ const sideDrawer = props => {
     return(
         <nav className={drawerClasses}>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" onClick={props.drawerToggleClickHandler}>About Me</a></li>
+                <li><a href="#resume" onClick={props.drawerToggleClickHandler}>Resume</a></li>
+                <li><a href="#projects" onClick={props.drawerToggleClickHandler}>Projects</a></li>
+                <li><a href="#contact" onClick={props.drawerToggleClickHandler}>Contact</a></li>
             </ul>
         </nav>
     );   

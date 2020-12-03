@@ -46,7 +46,7 @@ class Projects extends Component {
                         </Row>
                         <Row>
                             <Col lg={6} className="card-col">
-                                <div className="card-o" style={{backgroundColor:'#FFFFFF'}}>
+                                <div className="card-o leobay" style={{backgroundColor:'#FFFFFF'}}>
                                     <h1>LeoBay</h1>
                                     <p>
                                         Personal project, an application for users that want to sell their own items. The application let the users to signup and login. The backend is built with C# and Entity Framework connected with the SQL database, and the front end is built with WPF.

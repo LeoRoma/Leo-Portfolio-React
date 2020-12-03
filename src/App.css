@@ -39,6 +39,7 @@ html {
 
 .toolbar-navigation-items li{
   padding: 0 0.5rem;
+  font-size: 16px;
 }
 
 .toolbar-navigation-items a{
@@ -47,7 +48,8 @@ html {
 
 .toolbar-navigation-items a:hover,
 .toolbar-navigation-items a:active{
-  color: white;
+  color: gray;
+  font-size: 20px;
 }
 
 .toggle-button{
@@ -101,6 +103,7 @@ html {
 
 .side-drawer li{
   margin: 0.5rem 0;
+  font-size: 16px;
 }
 
 .side-drawer a{
@@ -281,6 +284,16 @@ html {
 .card-o a{
   color: black;
 }
+
+.card-o a:hover{
+  color: white;
+  font-size: 20px;
+}
+
+.leobay a:hover{
+  color: blue;
+}
+
 .card-o p{
   font-size: 16px;
   line-height: 24px;
@@ -294,6 +307,10 @@ html {
 
 .text-white a{
   color: white;
+}
+
+.text-white a:hover{
+  color: black;
 }
 
 .card-col{
