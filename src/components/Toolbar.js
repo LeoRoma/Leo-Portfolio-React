@@ -1,7 +1,7 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 import Hello from '../images/hello.jpg';
-
 
 const toolbar = props => (
     <header className="toolbar">
@@ -18,10 +18,27 @@ const toolbar = props => (
             </div>
             <div className="toolbar-navigation-items">
                 <ul>
-                    <li><a href="#about">About Me /</a></li>
-                    <li><a href="#resume">Resume /</a></li>
-                    <li><a href="#projects">Projects /</a></li>
-                    <li><a href="#contact">Contact /</a></li>
+                    <li>
+                        <Link activeClass="active" to="about" spy={true} smooth={false} offset={50} duration={500}>
+                            About Me /
+                        </Link>
+                        {/* <a href="#about">About Me /</a> */}
+                    </li>
+                    <li>
+                        <Link activeClass="active" to="resume" spy={true} smooth={false} offset={50} duration={500}>
+                            Resume /
+                        </Link>
+                    </li>
+                    <li>
+                        <Link activeClass="active" to="projects" spy={true} smooth={false} offset={50} duration={500}>
+                            Projects /
+                        </Link>
+                    </li>
+                    <li>
+                        <Link activeClass="active" to="contact" spy={true} smooth={false} offset={50} duration={500}>
+                            Contact /
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
