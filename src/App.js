@@ -1,27 +1,55 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-// import Nav from './components/Nav';
+
 import AboutMe from './components/AboutMe';
+import Backdrop from './components/Backdrop/Backdrop';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import NavigationBar from './components/NavigationBar';
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import SideDrawer from './components/SideDrawer/SideDrawer';
+import Toolbar from './components/Toolbar';
 
+class App extends Component {
+  state ={
+    sideDrawerOpen: false
+  };
 
-function App() {
-  return (
-    <div>
-      <NavigationBar />
-      <LandingPage />
-      <AboutMe />
-      <Resume />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    })
+  };
+
+  backdropClickHandler = () =>{
+    this.setState({sideDrawerOpen: false});
+  };
+
+  render(){
+    let backdrop;
+
+    if(this.state.sideDrawerOpen){
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
+    return (
+      <div style={{height:'100%'}}>
+        <Toolbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        <LandingPage />
+        <AboutMe />
+        <Resume />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    );
+  }
+
 }
+
+  
+
 
 export default App;

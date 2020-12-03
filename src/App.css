@@ -11,6 +11,119 @@ html {
   src: local('Manrope'), url(../src/fonts/Manrope-Regular.ttf) format('woff');
 }
 
+.toolbar{
+  /* position: fixed; */
+  width: 100%;
+  background-color: transparent;
+  height: 80px;
+  margin: auto;
+}
+
+.toolbar-navigation{
+  display: flex;
+  align-items: center;
+  /* height: 100px; */
+  padding: 2% 10%;
+}
+
+.spacer{
+  flex: 1;
+}
+
+.toolbar-navigation-items ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbar-navigation-items li{
+  padding: 0 0.5rem;
+}
+
+.toolbar-navigation-items a{
+  color: black;
+}
+
+.toolbar-navigation-items a:hover,
+.toolbar-navigation-items a:active{
+  color: white;
+}
+
+.toggle-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.toggle-button:focus{
+  outline: none;
+}
+
+.toggle-button-line{
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+
+.side-drawer{
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open{
+  transform: translateX(0);
+}
+
+.side-drawer ul{
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-drawer li{
+  margin: 0.5rem 0;
+}
+
+.side-drawer a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active{
+  color: white;
+}
+
+.backdrop{
+  position: fixed;
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.3); */
+  right: 0;
+  z-index: 100;
+}
+
 .navbar{
   background-color: #CFDEF3;
   height: 80px;
@@ -68,7 +181,7 @@ html {
 .banner-text h1{
   font-size: 90px;
   font-weight: 700;
-  font-family: Manrope;
+  /* font-family: Manrope; */
 }
 
 .aboutme{
@@ -333,6 +446,9 @@ html {
     padding-top: 50px;
   }
 
+  .toolbar-navigation-items{
+    display: none;
+  }
 }
 
 @media only screen and (max-width:700px) {
@@ -423,5 +539,15 @@ html {
 @media only screen and (max-width:268px) {
   .landingpage{
     height: 1200px;
+  }
+}
+
+@media only screen and (min-width:801px) {
+  .side-drawer{
+    display: none;
+  }
+
+  .toolbar-toggle-button{
+    display: none;
   }
 }
