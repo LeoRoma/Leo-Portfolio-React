@@ -3,10 +3,10 @@
   font-family: 'Manrope';
   src: local('Manrope'), url(../src/fonts/Manrope-Regular.ttf) format('woff');
 }
-/* 
+
 html{
   scroll-behavior: smooth;
-} */
+}
 
 .toolbar{
   position: fixed;
