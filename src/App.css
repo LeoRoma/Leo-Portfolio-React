@@ -9,18 +9,23 @@ html{
 }
 
 .toolbar{
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
-  background-color: transparent;
-  height: 80px;
+  /* background-color: blueviolet; */
+  height: 60px;
   margin: auto;
+  z-index: 200;
+}
+
+.toolbar.active{
+  background-color: rgb(55, 129, 182);
 }
 
 .toolbar-navigation{
   display: flex;
   align-items: center;
   /* height: 100px; */
-  padding: 2% 10%;
+  padding: 0% 10%;
 }
 
 .spacer{
@@ -50,6 +55,7 @@ html{
 }
 
 .toggle-button{
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -124,28 +130,6 @@ html{
   z-index: 100;
 }
 
-.navbar{
-  background-color: #CFDEF3;
-  height: 80px;
-}
-
-.navbar-header {
-  background-color: #F16E10;
-}
-
-.navbar-brand{
-  margin-left: 10%;
-}
-
-.navbar-items{
-  margin-left: 10%;
-  margin-right: 10%;
-  /* background-color:#CFDEF3; */
-}
-
-.navigation-bar{
-  width: 100%;
-}
 
 .landingpage{
   width:100%;
@@ -185,7 +169,7 @@ html{
 }
 
 .aboutme{
-  padding-top: 90px;
+  padding-top: 7%;
   display: block;
 }
 
@@ -196,9 +180,6 @@ html{
   border-radius: 25px;
 }
 
-.aboutme-row{
-  padding: 0%;
-}
 
 .aboutme-text{
   padding: 8%;
@@ -252,7 +233,7 @@ html{
 }
 
 .resume{
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 .resume-container{
@@ -333,7 +314,7 @@ html{
 .project{
   width: 100%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 .project-container{
