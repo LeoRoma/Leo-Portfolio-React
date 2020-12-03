@@ -3,10 +3,10 @@
   font-family: 'Manrope';
   src: local('Manrope'), url(../src/fonts/Manrope-Regular.ttf) format('woff');
 }
-
+/* 
 html{
   scroll-behavior: smooth;
-}
+} */
 
 .toolbar{
   position: fixed;
@@ -137,9 +137,10 @@ html{
 
 
 .landingpage{
-  padding-top: 10%;
+  padding-top: 13vh;
+  overflow: hidden;
   width:100%;
-  height: 900px;
+  height: 100%;
   margin:auto;
   display: block;
 }
@@ -370,17 +371,15 @@ html{
   float:left;
 }
 
-@media only screen and (max-width:1450px){
-  .landingpage{
-    height: 1000px;
-  }
-}
+
 
 @media only screen and (max-width:1199px){
-  .landingpage{
-    height: 910px;
+  .banner-text-col{
+    margin-top: 3%;
+    float: left;
+    width: 100%;
   }
-  
+
   .aboutme-profilepic img{
     position: relative;
     /* text-align: center; */
@@ -402,9 +401,9 @@ html{
 }
 
 @media only screen and (max-width:1151px){
-  .landingpage{
+  /* .landingpage{
     height: 830px;
-  }
+  } */
   .aboutme-text{
     width:100%;
   }
@@ -415,9 +414,9 @@ html{
 }
 
 @media only screen and (max-width:991px){
- .landingpage{
+ /* .landingpage{
     height: 900px
-  }
+  } */
 
   .aboutme-profilepic img{
     position: relative;
@@ -437,19 +436,19 @@ html{
   }
 }
 
-@media only screen and (max-width:899px){
+/* @media only screen and (max-width:899px){
   .landingpage{
     height: 1100px;
   }
-}
+} */
 
 @media only screen and (max-width:800px) {
 
-  .landingpage {
+  /* .landingpage {
     padding: 0;
     height:800px;
     padding-top: 40px;
-  }
+  } */
 
   .banner-text-col {
     width: 100%;
@@ -472,18 +471,18 @@ html{
 
 @media only screen and (max-width:700px) {
   /* For tablets: */
-  .landingpage {
+  /* .landingpage {
     padding: 0;
     height:800px;
     padding-top: 50px;
-  }
+  } */
 }
 
 @media only screen and (max-width:600px) {
-  .landingpage {
+  /* .landingpage {
     padding-top: 10%;
     height:650px;
-  }
+  } */
 
   .banner-text h1{
     font-size: 40px;
@@ -491,10 +490,10 @@ html{
 }
 
 @media only screen and (max-width:550px) {
-  .landingpage {
+  /* .landingpage {
     padding-top: 60px;
     height:700px;
-  }
+  } */
 
   /* .banner-text h1{
     font-size: 40px;
@@ -507,9 +506,9 @@ html{
     width: 100%;
     /* height: 900px; */
   }
-  .landingpage{
+  /* .landingpage{
     height:800px;
-  }
+  } */
   .banner-text h1{
     font-size: 40px;
   }
@@ -545,7 +544,7 @@ html{
   }
 }
 
-@media only screen and (max-width:500px) {
+/* @media only screen and (max-width:500px) {
   .landingpage{
     height: 800px;
   }
@@ -573,7 +572,7 @@ html{
   .landingpage{
     height: 1200px;
   }
-}
+} */
 
 @media only screen and (min-width:801px) {
   .side-drawer{

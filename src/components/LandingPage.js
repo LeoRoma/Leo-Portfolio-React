@@ -24,7 +24,8 @@ class LandingPage extends Component {
                             As an aspiring Junior Developer, I would like to challenge myself and my end-to-end critical thinking in a fast-paced environment.
                         </p>
                     </div>
-                </div>                   
+                </div>  
+                                 
             </div>
           </section>
           
