@@ -18,8 +18,8 @@ html{
 }
 
 .toolbar.active{
-  background-color: darkorange;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: #e5e5e5;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.2);
 }
 
 /* .toolbar.active a{
