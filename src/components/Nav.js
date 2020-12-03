@@ -5,7 +5,7 @@ import {Layout, Header, Navigation, Drawer} from 'react-mdl';
 // import Main from './Main';
 
 class Nav extends Component{
-
+    
     hideToggle(){
         var selectorId = document.querySelector('.mdl-layout');
         selectorId.MaterialLayout.toggleDrawer();
@@ -47,8 +47,7 @@ class Nav extends Component{
                                 <Link to="/contact" onClick = {() => this.hideToggle()}>Contact</Link> */}
                             </Navigation>
                     </Drawer>
-                </Layout>
-                    
+                </Layout>              
             </div>
         )
     }
