@@ -18,7 +18,12 @@ html{
 }
 
 .toolbar.active{
-  background-color: rgb(55, 129, 182);
+  background-color: rgb(63, 160, 230);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.toolbar.active a{
+  color: white;
 }
 
 .toolbar-navigation{
