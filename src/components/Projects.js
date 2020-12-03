@@ -4,7 +4,7 @@ import Dwitter from '../images/dwitter.jpg';
 import SpartaGlobal from '../images/spartaglobalprofile.jpg';
 import LeoBay from '../images/leobay.jpg';
 import StrawberryAlarmClock from '../images/strawberry.jpg';
-import ProfilePic from '../images/profilepic.jpg';
+import PortfolioMobile from '../images/portfoliomobile.jpg'
 import MakersBnB from '../images/makersbnb.jpg';
 
 class Projects extends Component {
@@ -100,7 +100,7 @@ class Projects extends Component {
                                         <a href="https://github.com/LeoRoma/Leo-Portfolio-React" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a> 
                                     </h5>
                                     <div className="project-img-container">
-                                        <img src={ProfilePic} alt="project" style={{width:'50%', mixBlendMode:"multiply"}}></img>
+                                        <img src={PortfolioMobile} alt="project" style={{width:'60%', mixBlendMode:"multiply"}}></img>
                                     </div>
                                 </div>
                             </Col>
