@@ -547,7 +547,13 @@ html{
 
 @media only screen and (max-width:500px) {
   .landingpage{
-    height: 900px;
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .landingpage{
+    height: 800px;
   }
 }
 
