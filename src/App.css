@@ -18,13 +18,13 @@ html{
 }
 
 .toolbar.active{
-  background-color: rgb(63, 160, 230);
+  background-color: darkorange;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-.toolbar.active a{
+/* .toolbar.active a{
   color: white;
-}
+} */
 
 .toolbar-navigation{
   display: flex;
@@ -137,8 +137,9 @@ html{
 
 
 .landingpage{
+  padding-top: 10%;
   width:100%;
-  height: 700px;
+  height: 900px;
   margin:auto;
   display: block;
 }
@@ -371,7 +372,7 @@ html{
 
 @media only screen and (max-width:1450px){
   .landingpage{
-    height: 800px;
+    height: 1000px;
   }
 }
 
@@ -394,26 +395,28 @@ html{
   .aboutme{
     padding-top: 10px;
   }
+
+  /* .banner-text h1{
+    font-size: 65px;
+  } */
 }
 
 @media only screen and (max-width:1151px){
   .landingpage{
-    height: 1100px;
+    height: 830px;
   }
   .aboutme-text{
     width:100%;
   }
+
+   .banner-text h1{
+    font-size: 70px;
+  }
 }
 
 @media only screen and (max-width:991px){
-  .navbar-brand{
-    margin-left: 0%;
-  }
-  
-  .navbar-items{
-    margin-left: 0%;
-    margin-right: 0%;
-    background-color: #CFDEF3;
+ .landingpage{
+    height: 900px
   }
 
   .aboutme-profilepic img{
@@ -434,11 +437,18 @@ html{
   }
 }
 
+@media only screen and (max-width:899px){
+  .landingpage{
+    height: 1100px;
+  }
+}
+
 @media only screen and (max-width:800px) {
 
   .landingpage {
     padding: 0;
-    height:900px;
+    height:800px;
+    padding-top: 40px;
   }
 
   .banner-text-col {
@@ -446,7 +456,7 @@ html{
   }
 
   .banner-text h1{
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .aboutme {
@@ -464,13 +474,14 @@ html{
   /* For tablets: */
   .landingpage {
     padding: 0;
-    height:900px;
+    height:800px;
+    padding-top: 50px;
   }
 }
 
 @media only screen and (max-width:600px) {
   .landingpage {
-    padding: 0;
+    padding-top: 10%;
     height:650px;
   }
 
@@ -481,7 +492,7 @@ html{
 
 @media only screen and (max-width:550px) {
   .landingpage {
-    padding: 0;
+    padding-top: 60px;
     height:700px;
   }
 
@@ -534,8 +545,15 @@ html{
   }
 }
 
+@media only screen and (max-width:500px) {
+  .landingpage{
+    height: 900px;
+  }
+}
+
 @media only screen and (max-width:350px) {
   .landingpage{
+    padding-top: 100px;
     height:940px;
   }
 }

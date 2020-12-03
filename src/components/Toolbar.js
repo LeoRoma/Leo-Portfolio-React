@@ -15,36 +15,39 @@ const Toolbar = props => {
 
     window.addEventListener('scroll', changeBackground);
     return(
-        <header className={toolbar ? "toolbar active" : "toolbar"}>
-            <nav className="toolbar-navigation">
-                
-                <div className="toolbar-logo">
-                    <a href="#home">
-                        <img src={Hello} alt="hello" />
-                    </a>
-                </div>
-                <div className="spacer" />
-                <div className="toolbar-toggle-button">
-                    <DrawerToggleButton click={props.drawerToggleClickHandler} />
-                </div>
-                <div className="toolbar-navigation-items">
-                    <ul>
-                        <li>
-                            <a href="#about">About Me /</a>
-                        </li>
-                        <li>
-                            <a href="#resume">Resume /</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projects /</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact /</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <div className="toolbar-container">
+            <header className={toolbar ? "toolbar active" : "toolbar"}>
+                <nav className="toolbar-navigation">
+                    
+                    <div className="toolbar-logo">
+                        <a href="#home">
+                            <img src={Hello} alt="hello" />
+                        </a>
+                    </div>
+                    <div className="spacer" />
+                    <div className="toolbar-toggle-button">
+                        <DrawerToggleButton click={props.drawerToggleClickHandler} />
+                    </div>
+                    <div className="toolbar-navigation-items">
+                        <ul>
+                            <li>
+                                <a href="#about">About Me /</a>
+                            </li>
+                            <li>
+                                <a href="#resume">Resume /</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects /</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact /</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        
     );
 };
 
