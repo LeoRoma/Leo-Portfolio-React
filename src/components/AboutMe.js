@@ -52,7 +52,7 @@ class AboutMe extends Component {
                                         </p>
                                     <div className="social-links">
                                         <h5>FIND ME ON</h5>
-                                        <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
+                                        <a href="https://www.linkedin.com/in/jia-tian-leo-xia" rel="noopenr noreferrer" target="_blank">
                                             <FaLinkedin />
                                         </a>    
                                         <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank">
