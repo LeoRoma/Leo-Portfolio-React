@@ -235,8 +235,9 @@ html{
   left:0;
 }
 
-.social-links a:hoover{
-  color:gray;
+.social-links a:hover{
+  color:white;
+  font-size: 45px;
 }
 
 .resume{
@@ -342,6 +343,11 @@ html{
   color:black;
 }
 
+.social-links-contact a:hover{
+  font-size: 45px;
+  color:white;
+}
+
 .contact-img{
   position: relative;
 }
@@ -395,15 +401,9 @@ html{
     padding-top: 10px;
   }
 
-  /* .banner-text h1{
-    font-size: 65px;
-  } */
 }
 
 @media only screen and (max-width:1151px){
-  /* .landingpage{
-    height: 830px;
-  } */
   .aboutme-text{
     width:100%;
   }
@@ -414,10 +414,6 @@ html{
 }
 
 @media only screen and (max-width:991px){
- /* .landingpage{
-    height: 900px
-  } */
-
   .aboutme-profilepic img{
     position: relative;
     float: none;
@@ -436,19 +432,7 @@ html{
   }
 }
 
-/* @media only screen and (max-width:899px){
-  .landingpage{
-    height: 1100px;
-  }
-} */
-
 @media only screen and (max-width:800px) {
-
-  /* .landingpage {
-    padding: 0;
-    height:800px;
-    padding-top: 40px;
-  } */
 
   .banner-text-col {
     width: 100%;
@@ -469,36 +453,13 @@ html{
   }
 }
 
-@media only screen and (max-width:700px) {
-  /* For tablets: */
-  /* .landingpage {
-    padding: 0;
-    height:800px;
-    padding-top: 50px;
-  } */
-}
 
 @media only screen and (max-width:600px) {
-  /* .landingpage {
-    padding-top: 10%;
-    height:650px;
-  } */
-
   .banner-text h1{
     font-size: 40px;
   }
 }
 
-@media only screen and (max-width:550px) {
-  /* .landingpage {
-    padding-top: 60px;
-    height:700px;
-  } */
-
-  /* .banner-text h1{
-    font-size: 40px;
-  } */
-}
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
@@ -506,9 +467,7 @@ html{
     width: 100%;
     /* height: 900px; */
   }
-  /* .landingpage{
-    height:800px;
-  } */
+
   .banner-text h1{
     font-size: 40px;
   }
@@ -543,36 +502,6 @@ html{
     text-align: center;
   }
 }
-
-/* @media only screen and (max-width:500px) {
-  .landingpage{
-    height: 800px;
-  }
-}
-
-@media only screen and (max-width:400px) {
-  .landingpage{
-    height: 800px;
-  }
-}
-
-@media only screen and (max-width:350px) {
-  .landingpage{
-    padding-top: 100px;
-    height:940px;
-  }
-}
-@media only screen and (max-width:325px) {
-  .landingpage{
-    height: 1100px;
-  }
-}
-
-@media only screen and (max-width:268px) {
-  .landingpage{
-    height: 1200px;
-  }
-} */
 
 @media only screen and (min-width:801px) {
   .side-drawer{
