@@ -13,4 +13,4 @@
 
 ## Screenshots
 ![Image screenshot](./screenshots/portfolio.jpg)
-- <a href="https://leo-portfolio-react.netlify.app/"></a>
+- <a href="https://leo-portfolio-react.netlify.app/">Live Demo</a>
