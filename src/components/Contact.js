@@ -25,7 +25,7 @@ class Contact extends Component{
                     Or check me out on socials:
                   </p>
                   <div className="social-links-contact">
-                        <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191/" rel="noopenr noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/in/jiatian-leo-xia-9b2490191" rel="noopenr noreferrer" target="_blank">
                             <FaLinkedin />
                         </a>    
                         <a href="https://github.com/LeoRoma" rel="noopenr noreferrer" target="_blank" style={{paddingLeft:"30px"}}>
