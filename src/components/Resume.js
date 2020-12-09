@@ -26,7 +26,7 @@ class Resume extends Component {
                                         Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
                                         <br />
                                         <br />
-                                        Built a CV viewing tool for internal use using ASP.NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint review.
+                                        Built a CV viewing tool for internal use using ASP.NET, AWS, Azure, and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint review.
                                     </p>
                                 </div>                               
                             </Col>
