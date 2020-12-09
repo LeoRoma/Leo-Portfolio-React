@@ -24,6 +24,9 @@ class Resume extends Component {
                                         <br />
                                         <br />
                                         Being able to work on team projects using ASP .NET to create full-stack applications, interacting with SQL databases using the Entity Framework and Microsoft Azure.
+                                        <br />
+                                        <br />
+                                        Built a CV viewing tool for internal use using ASP.NET, AWS, Azure and Bootstrap working in an Agile environment in a team of seven. Coordinated with the Talent Management and Resource Management teams to ensure the product was meeting the business needs with weekly sprint review.
                                     </p>
                                 </div>                               
                             </Col>
@@ -38,7 +41,7 @@ class Resume extends Component {
                                         Conducted  training functions, ensuring that individual performance met the highest possible culinary standards.
                                         <br />
                                         <br />
-                                        Supervised and managed employees. Manages all day-to-day operations. Understand employee positions well enough to perform duties in employees' absence.
+                                        Supervised and managed employees. Organised all day-to-day Operations. Efficiently capable to perform duties in employees absence.
                                         <br />
                                         <br />
                                         Worked collaboratively within the team and established and maintained open communication to ensure smooth operations.
