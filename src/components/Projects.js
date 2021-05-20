@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Dwitter from '../images/dwitter.jpg';
 import SpartaGlobal from '../images/spartaglobalprofile.jpg';
-import ArtGallery from '../images/artgallery.jpg';
-import ChosenForYou from '../images/chosenforyou.jpg';
+import LeoBay from '../images/leobay.jpg';
+import StrawberryAlarmClock from '../images/strawberry.jpg';
 import PortfolioMobile from '../images/portfoliomobile.jpg'
 import MakersBnB from '../images/makersbnb.jpg';
 
@@ -15,40 +15,21 @@ class Projects extends Component {
                     <div className="project-container">
                         <Row>
                             <Col lg={6} className="card-col">
-                                <div className="card-o leobay" style={{ backgroundColor: '#67A4FF' }}>
-                                    <h1>Leo Art Gallery</h1>
+                                <div className="card-o" style={{ backgroundColor: '#67A4FF' }}>
+                                    <h1>D-Witter</h1>
                                     <p>
-                                        I challenged myself in recreating a complex front-end experience using HTML, CSS, and Javascript.
+                                        A frontend project built with React, the application uses an API from Makers Academy. The web-application is able to register/login, once logged in is able to send a peep, delete a own peep and like other users peeps.
                                     </p>
                                     <h5>
-                                        <a href="https://leoartgallery.netlify.app/" rel="noopenr noreferrer" target="_blank">LIVE DEMO</a>
+                                        <a href="https://github.com/LeoRoma/D-witter-react" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a>
                                     </h5>
                                     <div className="project-img-container">
-                                        <img src={ArtGallery} alt="project" style={{ width: "80%" }}></img>
+                                        <img src={Dwitter} alt="project" style={{ width: '65%' }}></img>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={6} className="card-col">
                                 <div className="card-o" style={{ backgroundColor: '#FFC94D' }}>
-
-                                    <h1>Chosen For You</h1>
-                                    <p>
-                                        I had to build a responsive webpage with a carousel and different filters, by using only JS, HTML and CSS without any external libraries or framework such as React or Bootstrap, but I could use a mix of JQuery and Vanilla JS
-                                    </p>
-                                    <h5>
-                                        <a href="https://github.com/LeoRoma/ChosenForYou" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a> <br/>
-                                        <a href="https://chosen-for-you.netlify.app/" rel="noopenr noreferrer" target="_blank">LIVE DEMO</a>
-                                    </h5>
-                                    <div className="project-img-container">
-                                        <img src={ChosenForYou} alt="project" style={{ width: '65%' }}></img>
-                                    </div>
-                                </div>
-
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col lg={6} className="card-col">
-                                <div className="card-o" style={{ backgroundColor: 'white' }}>
                                     <h1>Sparta Global Profile</h1>
                                     <p>
                                         Sparta Global would like to create a portal system that would display all spartan profiles. The project is built with ASP.Net MVC, for the backend used C# and Entity Framework to connect with the SQL database is deployed on Azure, as front end HTML, CSS, and Razor.
@@ -62,18 +43,33 @@ class Projects extends Component {
                                 </div>
 
                             </Col>
-                            <Col lg={6} className="card-col text-white">
-                                <div className="card-o" style={{ backgroundColor: 'rgb(108, 88, 232)' }}>
-
-                                    <h1>D-Witter</h1>
+                        </Row>
+                        <Row>
+                            <Col lg={6} className="card-col">
+                                <div className="card-o leobay" style={{ backgroundColor: '#FFFFFF' }}>
+                                    <h1>LeoBay</h1>
                                     <p>
-                                        A frontend project built with React, the application uses an API from Makers Academy. The web-application is able to register/login, once logged in is able to send a peep, delete a own peep and like other users peeps.
+                                        Personal project, an application for users that want to sell their own items. The application let the users to signup and login. The backend is built with C# and Entity Framework connected with the SQL database, and the front end is built with WPF.
                                     </p>
                                     <h5>
-                                        <a href="https://github.com/LeoRoma/D-witter-react" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a>
+                                        <a href="https://github.com/LeoRoma/LeoBay" rel="noopenr noreferrer" target="_blank">CHECK ON GITHUB</a>
                                     </h5>
                                     <div className="project-img-container">
-                                        <img src={Dwitter} alt="project" style={{ width: '65%' }}></img>
+                                        <img src={LeoBay} alt="project" style={{ width: "80%" }}></img>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={6} className="card-col text-white">
+                                <div className="card-o" style={{ backgroundColor: '#6C58E8' }}>
+                                    <h1>Strawberry Alarm Clock</h1>
+                                    <p>
+                                        Final group project in Makers Academy. My team and I built a smart alarm clock in React Native and Android Studio for an Android App which sets the alarm by calculating deducting the time of travel between the distance of two specific points and sets different music based on the weather.
+                                    </p>
+                                    <h5>
+                                        <a href="https://github.com/ckettell/strawberry-alarm-clock" rel="noopenr noreferrer" target="_blank">CHECK IT ON GITHUB</a>
+                                    </h5>
+                                    <div className="project-img-container">
+                                        <img src={StrawberryAlarmClock} alt="project" style={{ width: "70%" }}></img>
                                     </div>
                                 </div>
                             </Col>
